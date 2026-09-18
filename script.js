@@ -97,55 +97,55 @@ tutorials:[
 const tutorialDetails = {
   "Como REINICIAR A URNA ELETRÔNICA (U.E.).": {
     image: [
-            "imagem/01 - REINICIAR - 01.png",
-            "imagem/01 - REINICIAR - 02.png",
-            "imagem/01 - REINICIAR - 03.png"
+            "01 - REINICIAR - 01.png",
+            "01 - REINICIAR - 02.png",
+            "01 - REINICIAR - 03.png"
             ],
     video: "videos/01-reiniciar-urna.mp4",
     instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Aguarde pelo menos 10 segundos.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Observe a tela reiniciar.","Verifique se o problema foi resolvido.","Caso o problema persista, repita os passos 2 a 6 até no máximo duas vezes.","Se o problema for resolvido, a votação deve retornar ao normal imediatamente.","Se o problema continuar, siga para a Contingência 2."]
   },
   "Como fazer a VERIFICAÇÃO DA MÍDIA DE VOTAÇÃO (M.V.).": {
     image: [
-            "imagem/01 - REINICIAR - 01.png",
-            "imagem/02 - VERIFICAR MV - 01.png",
-            "imagem/02 - VERIFICAR MV - 02.png",
-            "imagem/02 - VERIFICAR MV - 03.png",
-            "imagem/01 - REINICIAR - 02.png",
-            "imagem/01 - REINICIAR - 03.png",
-            "imagem/02 - VERIFICAR MV - 04.png",
-            "imagem/02 - VERIFICAR MV - 05.png"
+            "01 - REINICIAR - 01.png",
+            "02 - VERIFICAR MV - 01.png",
+            "02 - VERIFICAR MV - 02.png",
+            "02 - VERIFICAR MV - 03.png",
+            "01 - REINICIAR - 02.png",
+            "01 - REINICIAR - 03.png",
+            "02 - VERIFICAR MV - 04.png",
+            "02 - VERIFICAR MV - 05.png"
             ],
     video: "videos/02-verificacao-midia-votacao.mp4",
     instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários. ", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Rompa o lacre da Mídia de Vídeo (M.V.).","Solte o parafuso da tampa do compartimento da Mídia de Vídeo (M.V.).","Retire a Mídia de Vídeo (M.V.).","Insira novamente a Mídia de Vídeo (M.V.), encaixando-a perfeitamente.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente a tampa da Mídia de Vídeo (M.V.).","Instale um novo lacre no local.","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 3."]
   },
   "Como fazer a SUBSTITUIÇÃO DA URNA ELETRÔNICA (U.E.) COM DEFEITO PELA URNA ELETRÔNICA (U.E.) DE CONTINGÊNCIA.": {
     image: [
-            "imagem/01 - REINICIAR - 01.png",
-            "imagem/03 - SUBSTITUIR UE - 01.png",
-            "imagem/02 - VERIFICAR MV - 01.png",
-            "imagem/02 - VERIFICAR MV - 02.png",          
-            "imagem/03 - SUBSTITUIR UE - 02.png",
-            "imagem/03 - SUBSTITUIR UE - 03.png",
-            "imagem/03 - SUBSTITUIR UE - 04.png",
-            "imagem/03 - SUBSTITUIR UE - 05.png",
-            "imagem/03 - SUBSTITUIR UE - 06.png",
-            "imagem/01 - REINICIAR - 02.png",
-            "imagem/01 - REINICIAR - 03.png",
-            "imagem/02 - VERIFICAR MV - 04.png",
-            "imagem/02 - VERIFICAR MV - 05.png"
+            "01 - REINICIAR - 01.png",
+            "03 - SUBSTITUIR UE - 01.png",
+            "02 - VERIFICAR MV - 01.png",
+            "02 - VERIFICAR MV - 02.png",          
+            "03 - SUBSTITUIR UE - 02.png",
+            "03 - SUBSTITUIR UE - 03.png",
+            "03 - SUBSTITUIR UE - 04.png",
+            "03 - SUBSTITUIR UE - 05.png",
+            "03 - SUBSTITUIR UE - 06.png",
+            "01 - REINICIAR - 02.png",
+            "01 - REINICIAR - 03.png",
+            "02 - VERIFICAR MV - 04.png",
+            "02 - VERIFICAR MV - 05.png"
             ],
     video: "videos/03-substituicao-ue.mp4",
     instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Retire o lacre da Mídia de Resultado (M.R.).","Retire o lacre da Mídia de Vídeo (M.V.). ","Solte os parafusos das tampas dos compartimentos das mídias (M.V. e M.R.).","Retire a Mídia de Resultado (M.R.) e a Mídia de Vídeo (M.V.).","Substitua o Urna Eletrônica (U.E.) com defeito pela Urna Eletrônica (U.E.) de contingência.","Retire o lacres (M.V e M.R) da Urna Eletrônica (U.E.) de contingência.","Solte os parafusos das tampas dos compartimentos das mídias da Urna de Contingência.","Insira a Mídia de Resultado (M.R.) e a Mídia de Vídeo (M.V.) na Urna de Contingência","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente as tampas das mídias (M.V. e M.R.).","Instale um novo lacre sobre as tampas das mídias","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 4."]
   },
   "Como fazer a SUBSTITUIÇÃO DA MÍDIA DE VOTAÇÃO (M.V.) DA URNA ELETRÔNICA (U.E.) COM DEFEITO PELA MÍDIA DE VOTAÇÃO (M.V.) DE CONTINGÊNCIA.": {
     image: [
-            "imagem/01 - REINICIAR - 01.png",
-            "imagem/04 - TROCAR MV - 01.png",
-            "imagem/03 - SUBSTITUIR UE - 06.png",
-            "imagem/01 - REINICIAR - 02.png",
-            "imagem/01 - REINICIAR - 03.png",
-            "imagem/02 - VERIFICAR MV - 04.png",
-            "imagem/02 - VERIFICAR MV - 05.png"
+            "01 - REINICIAR - 01.png",
+            "04 - TROCAR MV - 01.png",
+            "03 - SUBSTITUIR UE - 06.png",
+            "01 - REINICIAR - 02.png",
+            "01 - REINICIAR - 03.png",
+            "02 - VERIFICAR MV - 04.png",
+            "02 - VERIFICAR MV - 05.png"
             ],
     video: "videos/04-substituicao-mv.mp4",
     instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "É necessário utilizar uma chave Philips.", "Desligue a urna.","Retire as Mídia de Vídeo (M.V.) e a Mídia de Resultado (M.R.) da Urna de Contingência.","Substitua inserindo a Mídia de Vídeo (M.V.) de Contingência na Urna de Contingência.","Insira a Mídia de Resultado (M.R.) na Urna de Contingência.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente as tampas das mídias (M.V. e M.R.).","Instale um novo lacre nas tampas das mídias.","A votação deve retornar ao funcionamento normal imediatamente.","Caso o problema persista, entre em contato com o responsável pelo cartório eleitoral para solicitar a realização da votação de forma manual, utilizando cédulas de papel."]
