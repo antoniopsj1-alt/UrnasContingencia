@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="Antonio Pereira de Souza Junior, Aplicativo para Contingência, Urna Eletrônica, RED, Recuperador de Dados, Mídia de Votação, Mídia de Resultado, Bobina de Papel, Módulo Impressor">
+<meta name="author" content="Antônio Pereira de Souza Junior">
+
+<title>Guia Prático de Urna - Marcela</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container mx-auto px-4 py-6">
+
+    <!-- HEADER -->
+
+    <div class="mb-8">
+
+<div class="flex items-center gap-4">
+    <img src="logotipo.png" alt="Logotipo" class="w-20 h-20 md:w-24 md:h-24 object-contain flex-shrink-0">
+    <h1 class="text-5xl font-bold text-cyan-400">
+        Guia de Contingências na Eleição.
+    </h1>
+</div>
+
+<p class="text-slate-400 mt-3 text-lg">
+    Manual de Procedimentos de Contingência de uma Urna Eletrônica durante a Votação.
+</p>
+
+    </div>
+
+    <!-- =====================
+         ESTADO 1
+    ======================= -->
+
+    <section id="homeScreen" class="fade">
+
+        <div class="mb-6">
+            <input    type="text"    id="searchInput"    placeholder="Pesquisar software..."    class="search-box"/>
+        </div>
+
+        <div
+            id="softwareGrid"
+            class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+        ></div>
+
+    </section>
+
+    <!-- =====================
+         ESTADO 2
+    ======================= -->
+
+    <section id="indexScreen" class="hidden-screen fade">
+
+        <button    onclick="showHome()"    class="action-btn">    🏠 Voltar para o Início</button>
+
+        <div class="flex items-center gap-4 mb-8">
+
+            <div id="selectedSoftwareIcon" class="text-5xl"></div>
+
+            <div>
+                <h2
+                    id="selectedSoftwareTitle"
+                    class="text-3xl font-bold"
+                ></h2>
+
+                <p class="text-gray-400">
+                    Escolha um tutorial prático.
+                </p>
+            </div>
+
+        </div>
+
+        <div
+            id="tutorialList"
+            class="grid gap-4 md:grid-cols-2"
+        ></div>
+
+    </section>
+
+    <!-- =====================
+         ESTADO 3
+    ======================= -->
+
+    <section id="contentScreen" class="hidden-screen fade">
+
+        <div class="flex flex-wrap mobile-stack gap-3 mb-6">
+
+            <button    onclick="showSoftwareIndex(currentSoftware.id)"    class="action-btn">    ⬅️ Voltar para o Índice</button>
+
+            <button    onclick="showHome()"    class="action-btn">    🏠 Voltar para o Início</button>
+
+        </div>
+
+        <h2
+            id="tutorialTitle"
+            class="text-3xl font-bold mb-8"
+        ></h2>
+
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+
+            <!-- VISUAL -->
+
+            <div class="image-placeholder" id="tutorialVisual">
+                <div id="tutorialImageArea" class="absolute inset-0 flex flex-col items-center justify-center text-center p-6"></div>
+            </div>
+            <!-- TEXTO -->
+
+            <div
+                class="bg-slate-800 rounded-2xl p-6 border border-slate-700"
+            >
+
+                <h3 class="text-xl font-semibold mb-4">
+                    Passo a Passo
+                </h3>
+
+                <ul
+                    id="tutorialContent"
+                    class="space-y-4 text-gray-300"
+                ></ul>
+
+            </div>
+
+        </div>
+
+        <div class="mt-8 flex gap-3">
+
+             <button    onclick="showSoftwareIndex(currentSoftware.id)"    class="action-btn">    ⬅️ Voltar para o Índice</button>
+
+            <button    onclick="showHome()"    class="action-btn">    🏠 Voltar para o Início</button>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+		<footer style="text-align: center;"> <!-- Início do Rodapé da página -->
+                  <p style="text-align: center;">
+                  <a href="https://antoniopsj1-alt.github.io/Portfolio-AntonioJunior/" target="_blank" style="text-decoration: none; color: inherit;">
+                   &copy; 2026 Antônio Pereira de Souza Junior.
+                  </a>
+                  </p>
+			<p style="text-align: center;">Todos os direitos reservados.</p>
+			<address style="text-align: center; color: blue; text-weight: bold;">
+			 Contato: <a href="mailto:antoniopsj1@gmail.com">antoniopsj1@gmail.com</a>
+			</address> 
+		</footer> <!-- Fim do Rodapé -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
