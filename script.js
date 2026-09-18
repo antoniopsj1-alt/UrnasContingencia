@@ -9,7 +9,7 @@ const softwares = [
 
 {
 id:"CONTINGÊNCIA 1",
-icon:"imagem/icone-01-contingencia-1.png",
+icon:"icone-01-contingencia-1.png",
 name:"01 VÍDEO - CONTINGÊNCIA 1",
 description:"Reinício da Urna Eletrônica (U.E.) com defeito.",
 tutorials:[
@@ -19,7 +19,7 @@ tutorials:[
 
 {
 id:"CONTINGÊNCIA 2",
-icon:"imagem/icone-02-contingencia-2.png",
+icon:"icone-02-contingencia-2.png",
 name:"02 VÍDEO - CONTINGÊNCIA 2",
 description:"Verificação da Mídia de Votação (M.V.) com defeito.",
 tutorials:[
@@ -29,7 +29,7 @@ tutorials:[
 
 {
 id:"CONTINGÊNCIA 3",
-icon:"imagem/icone-03-contingencia-3.png",
+icon:"icone-03-contingencia-3.png",
 name:"03 VÍDEO - CONTINGÊNCIA 3",
 description:"Substituição da Urna Eletrônica (U.E.) com defeito por uma de contingência.",
 tutorials:[
@@ -39,7 +39,7 @@ tutorials:[
 
 {
 id:"CONTINGÊNCIA 4",
-icon:"imagem/icone-04-contingencia-4.png",
+icon:"icone-04-contingencia-4.png",
 name:"04 VÍDEO - CONTINGÊNCIA 4",
 description:"Substituição da Mídia de Votação (M.V.) com defeito por uma de contingência.",
 tutorials:[
@@ -49,7 +49,7 @@ tutorials:[
 
 {
 id:"RECUPERADOR DE DADOS",
-icon:"imagem/icone-05-red.png",
+icon:"icone-05-red.png",
 name:"05 VÍDEO - RED (RECUPERADOR DE DADOS)",
 description:"Recuperação de dados da Urna Eletrônica (U.E.) que não foi encerrada ou não possui dados (B.U. ou M.R.).",
 tutorials:[
@@ -61,7 +61,7 @@ tutorials:[
 
 {
 id:"MÓDULO IMPRESSOR",
-icon:"imagem/icone-06-modulo-impressor.png",
+icon:"icone-06-modulo-impressor.png",
 name:"06 VÍDEO - MÓDULO IMPRESSOR",
 description:"Verificação e troca da bobina de papel do módulo impressor da Urna Eletrônica (U.E.).",
 tutorials:[
@@ -72,7 +72,7 @@ tutorials:[
 
 {
 id:"BOBINA DE PAPEL",
-icon:"imagem/icone-07-bobina-papel.png",
+icon:"icone-07-bobina-papel.png",
 name:"07 VÍDEO - SUBSTITUIÇÃO DA BOBINA DE PAPEL DO MÓDULO IMPRESSOR",
 description:"Substituição da bobina de papel do módulo impressor da Urna Eletrônica (U.E.).",
 tutorials:[
@@ -82,7 +82,7 @@ tutorials:[
 
 {
 id:"INICIAIS",
-icon:"imagem/icone-08-procedimentos-iniciais.png",
+icon:"icone-08-procedimentos-iniciais.png",
 name:"08 - PROCEDIMENTOS INICIAIS",
 description:"Procedimentos iniciais de instalação da Urna Eletrônica (U.E.).",
 tutorials:[
