@@ -21,7 +21,7 @@ tutorials:[
 id:"CONTINGÊNCIA 2",
 icon:"icone-02-contingencia-2.png",
 name:"02 VÍDEO - CONTINGÊNCIA 2",
-description:"Verificação da Mídia de Votação (M.V.) com defeito.",
+description:"Verificação do encaixe da Mídia de Votação (M.V.).",
 tutorials:[
 "Como fazer a VERIFICAÇÃO DA MÍDIA DE VOTAÇÃO (M.V.)."
 ]
@@ -51,7 +51,7 @@ tutorials:[
 id:"RECUPERADOR DE DADOS",
 icon:"icone-05-red.png",
 name:"05 VÍDEO - RED (RECUPERADOR DE DADOS)",
-description:"Recuperação de dados da Urna Eletrônica (U.E.) que não foi encerrada ou não possui dados (B.U. ou M.R.).",
+description:"Recuperação de dados da Urna Eletrônica (U.E.) quando a sessão NÃO FOI ENCERRADA ou quando a sessão FOI ENCERRADA SEM a geração do Boletim de Urna (B.U.) ou sem os dados da Mídia de Resultado (M.R.).",
 tutorials:[
 "Como executar o RED (RECUPERADOR DE DADOS) da URNA ELETRÔNICA (U.E.) ENCERRADA COM AUSÊNCIA DE BOLETIM DE URNA (B.U.) OU DA URNA ELETRÔNICA (U.E.) ENCERRADA COM AUSÊNCIA DA MÍDIA DE RESULTADO (M.R.).",
 "Como executar o RED (RECUPERADOR DE DADOS) da URNA ELETRÔNICA (U.E.) NÃO ENCERRADA SEM VOTAÇÃO MISTA.",
@@ -116,7 +116,7 @@ const tutorialDetails = {
             "02 - VERIFICAR MV - 05.png"
             ],
     video: "videos/02-verificacao-midia-votacao.mp4",
-    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários. ", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Rompa o lacre da Mídia de Vídeo (M.V.).","Solte o parafuso da tampa do compartimento da Mídia de Vídeo (M.V.).","Retire a Mídia de Vídeo (M.V.).","Insira novamente a Mídia de Vídeo (M.V.), encaixando-a perfeitamente.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente a tampa da Mídia de Vídeo (M.V.).","Instale um novo lacre no local.","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 3."]
+    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários. ", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Rompa o lacre da Mídia de Votação (M.V.).","Solte o parafuso da tampa do compartimento da Mídia de Votação (M.V.).","Retire a Mídia de Votação (M.V.).","Insira novamente a Mídia de Votação (M.V.), encaixando-a perfeitamente.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente a tampa da Mídia de Votação (M.V.).","Instale um novo lacre no local.","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 3."]
   },
   "Como fazer a SUBSTITUIÇÃO DA URNA ELETRÔNICA (U.E.) COM DEFEITO PELA URNA ELETRÔNICA (U.E.) DE CONTINGÊNCIA.": {
     image: [
@@ -135,7 +135,7 @@ const tutorialDetails = {
             "02 - VERIFICAR MV - 05.png"
             ],
     video: "videos/03-substituicao-ue.mp4",
-    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Retire o lacre da Mídia de Resultado (M.R.).","Retire o lacre da Mídia de Vídeo (M.V.). ","Solte os parafusos das tampas dos compartimentos das mídias (M.V. e M.R.).","Retire a Mídia de Resultado (M.R.) e a Mídia de Vídeo (M.V.).","Substitua o Urna Eletrônica (U.E.) com defeito pela Urna Eletrônica (U.E.) de contingência.","Retire o lacres (M.V e M.R) da Urna Eletrônica (U.E.) de contingência.","Solte os parafusos das tampas dos compartimentos das mídias da Urna de Contingência.","Insira a Mídia de Resultado (M.R.) e a Mídia de Vídeo (M.V.) na Urna de Contingência","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente as tampas das mídias (M.V. e M.R.).","Instale um novo lacre sobre as tampas das mídias","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 4."]
+    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Retire o lacre da Mídia de Resultado (M.R.).","Retire o lacre da Mídia de Votação (M.V.). ","Solte os parafusos das tampas e abra os compartimentos das mídias (M.V. e M.R.).","Retire a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.).","Substitua o Urna Eletrônica (U.E.) com defeito pela Urna Eletrônica (U.E.) de contingência.","Retire o lacres (M.V e M.R) da Urna Eletrônica (U.E.) de contingência.","Solte os parafusos das tampas e abra os compartimentos das mídias da Urna de Contingência.","Insira a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.) na Urna de Contingência","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente e fixe as tampas das mídias (M.V. e M.R.).","Instale um novo lacre sobre as tampas das mídias","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 4."]
   },
   "Como fazer a SUBSTITUIÇÃO DA MÍDIA DE VOTAÇÃO (M.V.) DA URNA ELETRÔNICA (U.E.) COM DEFEITO PELA MÍDIA DE VOTAÇÃO (M.V.) DE CONTINGÊNCIA.": {
     image: [
@@ -148,37 +148,147 @@ const tutorialDetails = {
             "02 - VERIFICAR MV - 05.png"
             ],
     video: "videos/04-substituicao-mv.mp4",
-    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "É necessário utilizar uma chave Philips.", "Desligue a urna.","Retire as Mídia de Vídeo (M.V.) e a Mídia de Resultado (M.R.) da Urna de Contingência.","Substitua inserindo a Mídia de Vídeo (M.V.) de Contingência na Urna de Contingência.","Insira a Mídia de Resultado (M.R.) na Urna de Contingência.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente as tampas das mídias (M.V. e M.R.).","Instale um novo lacre nas tampas das mídias.","A votação deve retornar ao funcionamento normal imediatamente.","Caso o problema persista, entre em contato com o responsável pelo cartório eleitoral para solicitar a realização da votação de forma manual, utilizando cédulas de papel."]
+    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "É necessário utilizar uma chave Philips.", "Desligue a urna.","Retire as Mídia de Votação (M.V.) e a Mídia de Resultado (M.R.) da Urna de Contingência.","Substitua inserindo a Mídia de Votação (M.V.) de Contingência na Urna de Contingência.","Insira a Mídia de Resultado (M.R.) na Urna de Contingência.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente e fixe as tampas das mídias (M.V. e M.R.).","Instale um novo lacre nas tampas das mídias.","A votação deve retornar ao funcionamento normal imediatamente.","Caso o problema persista, entre em contato com o responsável pelo cartório eleitoral para solicitar a realização da votação de forma manual, utilizando cédulas de papel."]
   },
   "Como executar o RED (RECUPERADOR DE DADOS) da URNA ELETRÔNICA (U.E.) ENCERRADA COM AUSÊNCIA DE BOLETIM DE URNA (B.U.) OU DA URNA ELETRÔNICA (U.E.) ENCERRADA COM AUSÊNCIA DA MÍDIA DE RESULTADO (M.R.).": {
-    image: "imagem/05-red-encerrada.jpg",
+    image: [
+            "01 - REINICIAR - 01.png",
+            "03 - SUBSTITUIR UE - 01.png",
+            "05 - RED - 01.png",
+            "05 - RED - 02.png",
+            "01 - REINICIAR - 02.png",
+            "01 - REINICIAR - 03.png",
+            "05 - RED - 03.png",
+            "05 - RED - 04.png",
+            "05 - RED - 05.png",
+            "05 - RED - 10.png",
+            "05 - RED - 06.png",
+            "05 - RED - 07.png",
+            "05 - RED - 08.png",
+            "05 - RED - 09.png",
+            "05 - RED - 11.png",
+            "05 - RED - 12.png",
+            "05 - RED - 13.png",
+            "05 - RED - 14.png",
+            "05 - RED - 15.png",
+            "05 - RED - 16.png",
+            "05 - RED - 17.png",
+            "05 - RED - 18.png",
+            "01 - REINICIAR - 01.png"
+            ],
     video: "videos/05-red-encerrada.mp4",
-    instructions: ["Insira aqui a instrução 1 para este procedimento RED.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+    instructions: ["Utilize uma chave Phillips adequada para todas as operações de abertura e fechamento de compartimento.", "Prepare uma Mídia RED específica para o procedimento.","Prepare uma Mídia de Resultado (M.R.) específica para receber as informações do sistema.","Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.","Retire o lacre da Mídia de Resultado (M.R.) na Urna Eletrônica (U.E.).","Destrave e abra a tampa do compartimento da Mídia de Resultado (M.R.).","Retire a Mídia de Resultado (M.R.) da U.E.","Insira a Mídia RED no slot da Mídia de Resultado.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Aguarde a inicialização completa do sistema.","Digite o código de acesso ao RECUPERADOR DE DADOS quando solicitado.","Na tela, serão exibidas todas as informações a serem recuperadas, incluindo o status da urna: **ENCERRADA** ou **NÃO ENCERRADA**.","Caso a urna esteja **ENCERRADA**, selecione uma das opções seguintes:<br>[1] - Copiar resultado para o Totalizador<br>[2] - Imprimir Boletim de Urna (BU)<br>[3] - Imprimir Boletim de Urna de Justiça (BUJ)<br>[4] - Imprimir Boletim de Mesários (B.I.M.)<br>[9] - Finalizar o procedimento de recuperação de dados","Digite: **1** para copiar o resultado para o totalizador.","Pressione o botão **CONFIRMA**.","A urna irá imprimir a 1ª via do Boletim de Urna (B.U.).","Após a impressão, na tela aparecerá a mensagem:*Por favor, verifique se o Boletim de Urna foi impresso corretamente e de forma legível.*","Confirme pressionando **CONFIRMA** se a impressão estiver correta.","A urna imprimirá as seguintes vias/documentos:<br>- 2ª via do Boletim de Urna (B.U.)<br>- 1ª via do Boletim de Justificativa (B.U.J.)<br>- 1ª via do Boletim de Mesários (B.I.M.)","Após as impressões, na tela será exibida a mensagem: *Por favor, insira uma mídia de resultado válida para gravar os dados.*","Retire a Mídia RED.","Insira novamente a Mídia de Resultado (M.R.) específica.","Pressione o botão **CONFIRMA** para iniciar a gravação.","Aguarde a confirmação de gravação bem-sucedida.","Quando aparecer na tela: *Mídia de resultado gravada com sucesso. Por favor, retire a mídia...*",
+    "Retire a Mídia de Resultado (M.R.) específica.","A urna perguntará sobre o número de cópias adicionais do Boletim de Urna (B.U.).","Digite o número desejado de cópias.","Confirme pressionando **CONFIRMA** ou finalize sem impressões adicionais pressionando **CORRIGE**.","Na tela será exibida a mensagem **Lacre a tampa dos compartimentos da mídia de resultado e mídia externa**","Proceda fixando a tampa do compartimento da Mídia de Resultado (M.R.).","Instale um novo lacre sobre a tampa da Mídia de Resultado (M.R.).","Confirme pressionando **CONFIRMA**.","A mensagem na tela será: *Operação realizada com sucesso. Desligue a urna.*","Confirme pressionando **CONFIRMA**.","Desligue a urna eletrônica pressionando o botão vermelho localizado na parte traseira."]
   },
   "Como executar o RED (RECUPERADOR DE DADOS) da URNA ELETRÔNICA (U.E.) NÃO ENCERRADA SEM VOTAÇÃO MISTA.": {
-    image: "imagem/06-red-nao-encerrada-sem-mista.jpg",
+    image: [
+            "01 - REINICIAR - 01.png",
+            "03 - SUBSTITUIR UE - 01.png",
+            "05 - RED - 01.png",
+            "05 - RED - 02.png",
+            "01 - REINICIAR - 02.png",
+            "01 - REINICIAR - 03.png",
+            "05 - RED - 03.png",
+            "05 - RED - 20.png",
+            "05 - RED - 05.png",
+            "05 - RED - 10.png",
+            "05 - RED - 06.png",
+            "05 - RED - 07.png",
+            "05 - RED - 08.png",
+            "05 - RED - 09.png",
+            "05 - RED - 11.png",
+            "05 - RED - 12.png",
+            "05 - RED - 13.png",
+            "05 - RED - 14.png",
+            "05 - RED - 15.png",
+            "05 - RED - 16.png",
+            "05 - RED - 17.png",
+            "05 - RED - 18.png",
+            "01 - REINICIAR - 01.png"
+            ],
     video: "videos/05-red-encerrada.mp4",
-    instructions: ["Insira aqui a instrução 1 para este procedimento RED.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+    instructions: ["Utilize uma chave Phillips adequada para todas as operações de abertura e fechamento de compartimento.", "Prepare uma Mídia RED específica para o procedimento.","Prepare uma Mídia de Resultado (M.R.) específica para receber as informações do sistema.","Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.","Retire o lacre da Mídia de Resultado (M.R.) na Urna Eletrônica (U.E.).","Destrave e abra a tampa do compartimento da Mídia de Resultado (M.R.).","Retire a Mídia de Resultado (M.R.) da U.E.","Insira a Mídia RED no slot da Mídia de Resultado.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Aguarde a inicialização completa do sistema.","Digite o código de acesso ao RECUPERADOR DE DADOS quando solicitado.","Na tela, serão exibidas todas as informações a serem recuperadas, incluindo o status da urna: **ENCERRADA** ou **NÃO ENCERRADA**.","Caso a urna esteja **NÃO ENCERRADA**, selecione uma das opções seguintes:<br>[1] - Gerar BU para Sistema de Apuração<br>[2] - Gerar resultados para Totalizados<br>[9] - Finalizar Recuperador de Dados","Digite: 2 para Sessão com votação totalmente Eletrônica.","Pressione o botão **CONFIRMA**.","A urna irá imprimir a 1ª via do Boletim de Urna (B.U.).","Após a impressão, na tela aparecerá a mensagem:*Por favor, verifique se o Boletim de Urna foi impresso corretamente e de forma legível.*","Confirme pressionando **CONFIRMA** se a impressão estiver correta.","A urna imprimirá as seguintes vias/documentos:<br>- 2ª via do Boletim de Urna (B.U.)<br>- 1ª via do Boletim de Justificativa (B.U.J.)<br>- 1ª via do Boletim de Mesários (B.I.M.)","Após as impressões, na tela será exibida a mensagem: *Por favor, insira uma mídia de resultado válida para gravar os dados.*","Retire a Mídia RED.","Insira novamente a Mídia de Resultado (M.R.) específica.","Pressione o botão **CONFIRMA** para iniciar a gravação.","Aguarde a confirmação de gravação bem-sucedida.","Quando aparecer na tela: *Mídia de resultado gravada com sucesso. Por favor, retire a mídia...*","Retire a Mídia de Resultado (M.R.) específica.","A urna perguntará sobre o número de cópias adicionais do Boletim de Urna (B.U.).",
+    "Digite o número desejado de cópias.","Confirme pressionando **CONFIRMA** ou finalize sem impressões adicionais pressionando **CORRIGE**.","Na tela será exibida a mensagem **Lacre a tampa dos compartimentos da mídia de resultado e mídia externa**","Proceda fixando a tampa do compartimento da Mídia de Resultado (M.R.).","Instale um novo lacre sobre a tampa da Mídia de Resultado (M.R.).","Confirme pressionando **CONFIRMA**.","A mensagem na tela será: *Operação realizada com sucesso. Desligue a urna.*","Confirme pressionando **CONFIRMA**.","Desligue a urna eletrônica pressionando o botão vermelho localizado na parte traseira."]
   },
   "Como executar o RED (RECUPERADOR DE DADOS) da URNA ELETRÔNICA (U.E.) NÃO ENCERRADA COM VOTAÇÃO MISTA.": {
-    image: "imagem/07-red-nao-encerrada-com-mista.jpg",
+    image: [
+            "01 - REINICIAR - 01.png",
+            "03 - SUBSTITUIR UE - 01.png",
+            "05 - RED - 01.png",
+            "05 - RED - 02.png",
+            "01 - REINICIAR - 02.png",
+            "01 - REINICIAR - 03.png",
+            "05 - RED - 03.png",
+            "05 - RED - 19.png",
+            "05 - RED - 05.png",
+            "05 - RED - 10.png",
+            "05 - RED - 06.png",
+            "05 - RED - 07.png",
+            "05 - RED - 08.png",
+            "05 - RED - 09.png",
+            "05 - RED - 11.png",
+            "05 - RED - 12.png",
+            "05 - RED - 13.png",
+            "05 - RED - 14.png",
+            "05 - RED - 15.png",
+            "05 - RED - 16.png",
+            "05 - RED - 17.png",
+            "05 - RED - 18.png",
+            "01 - REINICIAR - 01.png"
+            ],
     video: "videos/05-red-encerrada.mp4",
-    instructions: ["Insira aqui a instrução 1 para este procedimento RED.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+    instructions: ["Utilize uma chave Phillips adequada para todas as operações de abertura e fechamento de compartimento.", "Prepare uma Mídia RED específica para o procedimento.","Prepare uma Mídia de Resultado (M.R.) específica para receber as informações do sistema.","Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.","Retire o lacre da Mídia de Resultado (M.R.) na Urna Eletrônica (U.E.).","Destrave e abra a tampa do compartimento da Mídia de Resultado (M.R.).","Retire a Mídia de Resultado (M.R.) da U.E.","Insira a Mídia RED no slot da Mídia de Resultado.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Aguarde a inicialização completa do sistema.","Digite o código de acesso ao RECUPERADOR DE DADOS quando solicitado.","Na tela, serão exibidas todas as informações a serem recuperadas, incluindo o status da urna: **ENCERRADA** ou **NÃO ENCERRADA**.","Caso a urna esteja **NÃO ENCERRADA**, selecione uma das opções seguintes:<br>[1] - Gerar BU para Sistema de Apuração<br>[2] - Gerar resultados para Totalizados<br>[9] - Finalizar Recuperador de Dados","Digite: 1 para Sessão Mista com votação Eletrônica e com votação Manual.","Pressione o botão **CONFIRMA**.","A urna irá imprimir a 1ª via do Boletim de Urna (B.U.).","Após a impressão, na tela aparecerá a mensagem:*Por favor, verifique se o Boletim de Urna foi impresso corretamente e de forma legível.*","Confirme pressionando **CONFIRMA** se a impressão estiver correta.","A urna imprimirá as seguintes vias/documentos:<br>- 2ª via do Boletim de Urna (B.U.)<br>- 1ª via do Boletim de Justificativa (B.U.J.)<br>- 1ª via do Boletim de Mesários (B.I.M.)","Após as impressões, na tela será exibida a mensagem: *Por favor, insira uma mídia de resultado válida para gravar os dados.*","Retire a Mídia RED.","Insira novamente a Mídia de Resultado (M.R.) específica.","Pressione o botão **CONFIRMA** para iniciar a gravação.","Aguarde a confirmação de gravação bem-sucedida.","Quando aparecer na tela: *Mídia de resultado gravada com sucesso. Por favor, retire a mídia...*","Retire a Mídia de Resultado (M.R.) específica.","A urna perguntará sobre o número de cópias adicionais do Boletim de Urna (B.U.).",
+    "Digite o número desejado de cópias.","Confirme pressionando **CONFIRMA** ou finalize sem impressões adicionais pressionando **CORRIGE**.","Na tela será exibida a mensagem **Lacre a tampa dos compartimentos da mídia de resultado e mídia externa**","Proceda fixando a tampa do compartimento da Mídia de Resultado (M.R.).","Instale um novo lacre sobre a tampa da Mídia de Resultado (M.R.).","Confirme pressionando **CONFIRMA**.","A mensagem na tela será: *Operação realizada com sucesso. Desligue a urna.*","Confirme pressionando **CONFIRMA**.","Desligue a urna eletrônica pressionando o botão vermelho localizado na parte traseira."]      
   },
   "Como VERIFICAR A BOBINA DE PAPEL.": {
-    image: "imagem/08-conferir-bobina.jpg",
+    image: [
+            "01 - REINICIAR - 01.png",
+            "06 - MODULO_IMPRESSOR - 01.png",
+            "06 - MODULO_IMPRESSOR - 02.png",
+            "06 - MODULO_IMPRESSOR - 03.png",
+            "06 - MODULO_IMPRESSOR - 12.png",
+            "06 - MODULO_IMPRESSOR - 13.png",
+            "01 - REINICIAR - 02.png"
+            ],
     video: "videos/08-conferir-bobina.mp4",
-    instructions: ["Insira aqui a instrução 1 para conferir a bobina.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+    instructions: ["Ferramenta necessária: chave Phillips.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Com a chave Phillips, retire o parafuso que fixa o módulo impressor na urna eletrônica.","Puxe suavemente o módulo impressor para desacoplar da urna eletrônica.","Observe pela fresta lateral do módulo impressor o diâmetro do papel restante na bobina.","Verifique visualmente se há quantidade suficiente de papel para a operação ou se será necessário trocar a bobina.","Se não for necessário substituir a bobina de papel, reconecte o módulo impressor na urna eletrônica, garantindo que esteja encaixado corretamente.","Parafuse novamente o módulo na urna usando a chave Phillips.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Se a quantidade de papel for insuficiente, prossiga com a troca da bobina de papel."]
   },
   "Como fazer a TROCA DA BOBINA DE PAPEL.": {
-    image: "imagem/09-troca-bobina.jpg",
+    image: [
+            "01 - REINICIAR - 01.png",
+            "06 - MODULO_IMPRESSOR - 01.png",
+            "06 - MODULO_IMPRESSOR - 02.png",
+            "06 - MODULO_IMPRESSOR - 03.png",
+            "06 - MODULO_IMPRESSOR - 04.png",
+            "06 - MODULO_IMPRESSOR - 05.png",
+            "06 - MODULO_IMPRESSOR - 06.png",
+            "06 - MODULO_IMPRESSOR - 07.png",
+            "06 - MODULO_IMPRESSOR - 08.png",
+            "06 - MODULO_IMPRESSOR - 09.png",
+            "06 - MODULO_IMPRESSOR - 10.png",
+            "06 - MODULO_IMPRESSOR - 11.png",
+            "06 - MODULO_IMPRESSOR - 12.png",
+            "06 - MODULO_IMPRESSOR - 13.png",
+            "01 - REINICIAR - 02.png"
+            ],
     video: "videos/08-conferir-bobina.mp4",
-    instructions: ["Insira aqui a instrução 1 para trocar a bobina.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+    instructions: ["Ferramentas necessárias: chave Phillips.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Com a chave Phillips, retire o parafuso que fixa o módulo impressor na urna eletrônica.","Puxe suavemente o módulo impressor para desacoplar da Urna Eletrônica.","Coloque o módulo deitado com a saída de papel voltada para cima.","Aperte a trava e abra a tampa do módulo impressor, deixando a bobina de papel exposta.","Mova a alavanca amarela até destravar a portinhola que segura o papel.","Retire a bobina de papel usada.","Pegue uma nova bobina de papel e coloque no suporte, na posição correta (normalmente, o papel deve desenrolar no sentido anti-horário).","Puxe a ponta do papel até sair da bobina e do módulo.","Feche a portinhola para travar a nova bobina no lugar.","Feche a tampa do módulo pressionando até ouvir o som de travamento.","Com o módulo ainda deitado, puxe a ponta do papel para fora do módulo, garantindo que esteja bem alinhada.","Recoloque o módulo impressor na urna eletrônica, encaixando corretamente.","Parafuse novamente o módulo na urna usando a chave Phillips.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Faça testes de impressão para garantir que o papel está sendo alimentado corretamente."]
   },
   "Como fazer a SUBSTITUIÇÃO DA BOBINA DE PAPEL.": {
-    image: "imagem/10-substituicao-bobina.jpg",
+    image: [
+            "01 - REINICIAR - 01.png",
+            "07 - Troca_Bobina - 01.png",
+            "07 - Troca_Bobina - 02.png",
+            "07 - Troca_Bobina - 03.png",
+            "07 - Troca_Bobina - 04.png",
+            "07 - Troca_Bobina - 05.png",
+            "07 - Troca_Bobina - 06.png",
+            "07 - Troca_Bobina - 07.png",
+            "07 - Troca_Bobina - 08.png",
+            "01 - REINICIAR - 02.png"
+            ],
     video: "videos/09-troca-bobina.mp4",
-    instructions: ["Insira aqui a instrução 1 para substituir a bobina.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+    instructions: ["Desligue a urna na chave;", "Aguarde a tela do terminal do eleitor se apagar, sob pena de danos à urna e/ou ao módulo;","Desaperte totalmente o parafuso de fixação do módulo impressor.", "Retire o módulo impressor, puxando firmemente pelas laterais;", "Desaperte o parafuso borboleta (manopla) no sentido anti-horário;", "Retire a tampa lateral;", "Retire a bobina e coloque a nova;", "Gire a engrenagem maior para tracionar o papel;", "Recoloque a tampa lateral, tomando cuidado para não apertar demasiadamente o parafuso corboleta;","Recoloque o módulo de volta ao terminal do eleitor;","Pressione firmemente para assegurar o encaixe, e aperte o parafuso.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna."]
   },
   "Como proceder com a INSTALAÇÃO DA URNA ELETRÔNICA (U.E.)": {
     image: "imagem/11-instalacao-ue.jpg",
@@ -306,7 +416,9 @@ function showTutorial(title){ // MOSTRA UMA TELA PRÓPRIA PARA CADA TÍTULO
             : `<span>Assista ao vídeo deste procedimento: <a href="${step.video}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 font-semibold hover:underline">▶ Abrir vídeo MP4</a></span>`;
         return `<li class="flex items-start gap-3">
             <input type="checkbox" class="mt-1 h-5 w-5 accent-cyan-500 cursor-pointer" aria-label="Conferir passo ${index + 1}">
-            <span><span class="text-cyan-400 font-bold">${index + 1}.</span> ${texto}</span>
+            <span class="text-xl font-bold">
+                  <span><span class="text-cyan-400 font-bold">${index + 1}.</span> ${texto}</span>
+            </span>
         </li>`;
     }).join("");
 
