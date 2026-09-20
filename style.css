@@ -29,6 +29,22 @@ body{
     }
 }
 
+.tutorial-layout{
+    display:grid;
+    grid-template-columns: 40% 60%;
+    gap:15px;
+}
+
+.image-placeholder{
+    min-height:70vh;
+    overflow:auto;
+}
+
+.tutorial-images-list{
+    overflow:auto;
+    touch-action:pinch-zoom;
+}
+
 .card-hover{
     transition:all .3s ease;
     cursor:pointer;
