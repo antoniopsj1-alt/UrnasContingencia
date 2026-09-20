@@ -224,9 +224,36 @@ body{
 }
 
 @media(max-width:768px){
-    .selected-software-icon-img{
-        width: 40px;
-        height: 40px;
+    h1{
+        font-size:2rem !important;
+        text-align:center;
+    }
+
+    h2{
+        font-size:1.5rem !important;
+    }
+
+    .action-btn{
+        width:100%;
+    }
+
+    .mobile-stack{
+        flex-direction:column;
+    }
+
+    /* Área das imagens */
+    .image-placeholder{
+        min-height:260px;
+        max-height:70vh;
+        overflow-y:auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .tutorial-images-list{
+        max-height:70vh;
+        overflow-y:auto;
+        overflow-x:hidden;
+        -webkit-overflow-scrolling: touch;
     }
 }
 
