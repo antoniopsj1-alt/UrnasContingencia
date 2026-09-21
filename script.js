@@ -141,7 +141,7 @@ const tutorialDetails = {
     },
     {
         src: "02 - VERIFICAR MV - 04.png",
-        caption: "Passo 10 - parafuse a tampa da Mídia de Votação (M.V.)."
+        caption: "Passo 10 - Parafuse a tampa da Mídia de Votação (M.V.)."
     },
     {
         src: "02 - VERIFICAR MV - 05.png",
@@ -167,7 +167,7 @@ images: [
     },
     {
         src: "02 - VERIFICAR MV - 02.png",
-        caption: "Passo 6 - Solte o parafuso da tampa e abra os compartimentos das mídias"
+        caption: "Passo 6 - Solte o parafuso da tampa e abra os compartimentos das Mídias ((M.V. e M.R.)."
     },
     {
         src: "03 - SUBSTITUIR UE - 02.png",
@@ -183,11 +183,11 @@ images: [
     },
     {
         src: "03 - SUBSTITUIR UE - 05.png",
-        caption: "Passo 10 -  Solte o parafuso da tampa e abra os compartimentos das mídia"
+        caption: "Passo 10 -  Solte o parafuso da tampa da Mídia de Votação (M.V.) e abra os compartimentos das Mídias (M.V. e M.R.)."
     },
     {
         src: "03 - SUBSTITUIR UE - 06.png",
-        caption: "Passo 11 - Insira a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.) na Urna de Contingência."
+        caption: "Passo 11 - Insira a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.) na Urna de contingência."
     },
     {
         src: "01 - REINICIAR - 02.png",
@@ -199,50 +199,54 @@ images: [
     },
     {
         src: "02 - VERIFICAR MV - 04.png",
-        caption: "Passo 14 - Encaixe e Parafuse as tampas da mídia"
+        caption: "Passo 14 - Parafuse a tampa da Mídia de Votação (M.V.) e fixe a tampa da Mídia de Resultado (M.R.)."
     },
     {
         src: "02 - VERIFICAR MV - 05.png",
-        caption: "Passo 15 - Instale um novo lacre sobre as tampas das mídias"
+        caption: "Passo 15 - Instale um novo lacre sobre as tampas das Mídias (M.V. e M.R.)"
     }
 ],
     video: "videos/03-substituicao-ue.mp4",
-    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Retire o lacre da Mídia de Resultado (M.R.).","Retire o lacre da Mídia de Votação (M.V.). ","Solte os parafusos das tampas e abra os compartimentos das mídias (M.V. e M.R.).","Retire a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.).","Substitua o Urna Eletrônica (U.E.) com defeito pela Urna Eletrônica (U.E.) de contingência.","Retire o lacres (M.V e M.R) da Urna Eletrônica (U.E.) de contingência.","Solte os parafusos das tampas e abra os compartimentos das mídias da Urna de Contingência.","Insira a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.) na Urna de Contingência","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente e fixe as tampas das mídias (M.V. e M.R.).","Instale um novo lacre sobre as tampas das mídias","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 4."]
+    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Retire o lacre da Mídia de Resultado (M.R.).","Retire o lacre da Mídia de Votação (M.V.). ","Solte o parafuso da tampa da Mídia de Votação (M.V.) e abra os compartimentos das Mídias (M.V. e M.R.).","Retire a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.).","Substitua o Urna Eletrônica (U.E.) com defeito pela Urna Eletrônica (U.E.) de contingência.","Retire o lacres (M.V e M.R) da Urna Eletrônica (U.E.) de contingência.","Solte o parafuso da tampa da Mídia de Votação (M.V.) e abra os compartimentos das Mídias (M.V. e M.R.). da Urna de contingência.","Insira a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.) na Urna de Contingência","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente a tampa da Mídia de Votação (M.V.) e fixe a tampa da Mídia de Resultado (M.R.).","Instale um novo lacre sobre as tampas das Mídias (M.V. e M.R.)","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 4."]
   },
   "Como fazer a SUBSTITUIÇÃO DA MÍDIA DE VOTAÇÃO (M.V.) DA URNA ELETRÔNICA (U.E.) COM DEFEITO PELA MÍDIA DE VOTAÇÃO (M.V.) DE CONTINGÊNCIA.": {
     images: [
     {
         src: "01 - REINICIAR - 01.png",
-        caption: "Legenda 1"
+        caption: "Passo 3 - Desligar a Urna Eletrônica (U.E.)."
     },
     {
         src: "04 - TROCAR MV - 01.png",
-        caption: "Legenda 2"
+        caption: "Passo 4 - Retire a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.) da Urna de contingência."
+    },
+    {
+        src: "04 - TROCAR MV - 02.png",
+        caption: "Passo 5 - Insira a Mídia de Votação (M.V.) de Contingência na Urna de Contingência."
     },
     {
         src: "03 - SUBSTITUIR UE - 06.png",
-        caption: "Legenda 3"
+        caption: "Passo 6 - Insira a Mídia de Resultado (M.R.) na Urna de Contingência."
     },
     {
         src: "01 - REINICIAR - 02.png",
-        caption: "Legenda 4"
+        caption: "Passo 7 - Ligue a urna pressionando o botão verde."
     },
     {
         src: "01 - REINICIAR - 03.png",
-        caption: "Legenda 5"
+        caption: "Passo 8 - Verifique se o problema foi resolvido."
     },
     {
         src: "02 - VERIFICAR MV - 04.png",
-        caption: "Legenda 6"
+        caption: "Passo 9 - Parafuse a tampa da Mídia de Votação (M.V.) e fixe a tampa da Mídia de Resultado (M.R.)."
     },
     {
         src: "02 - VERIFICAR MV - 05.png",
-        caption: "Legenda 7"
+        caption: "Passo 10 - Instale um novo lacre sobre as tampas das Mídias (M.V. e M.R.)"
     }
             
             ],
     video: "videos/04-substituicao-mv.mp4",
-    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "É necessário utilizar uma chave Philips.", "Desligue a urna.","Retire as Mídia de Votação (M.V.) e a Mídia de Resultado (M.R.) da Urna de Contingência.","Substitua inserindo a Mídia de Votação (M.V.) de Contingência na Urna de Contingência.","Insira a Mídia de Resultado (M.R.) na Urna de Contingência.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente e fixe as tampas das mídias (M.V. e M.R.).","Instale um novo lacre nas tampas das mídias.","A votação deve retornar ao funcionamento normal imediatamente.","Caso o problema persista, entre em contato com o responsável pelo cartório eleitoral para solicitar a realização da votação de forma manual, utilizando cédulas de papel."]
+    instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "É necessário utilizar uma chave Philips.", "Desligue a urna.","Retire as Mídia de Votação (M.V.) e a Mídia de Resultado (M.R.) da Urna de Contingência.","Substitua inserindo a Mídia de Votação (M.V.) de contingência na Urna de contingência.","Insira a Mídia de Resultado (M.R.) na Urna de Contingência.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente e fixe as tampas das Mídias (M.V. e M.R.).","Instale um novo lacre nas tampas das Mídias (M.V. e M.R.).","A votação deve retornar ao funcionamento normal imediatamente.","Caso o problema persista, entre em contato com o responsável pelo cartório eleitoral para solicitar a realização da votação de forma manual, utilizando cédulas de papel."]
   },
   "Como executar o RED (RECUPERADOR DE DADOS) da URNA ELETRÔNICA (U.E.) ENCERRADA COM AUSÊNCIA DE BOLETIM DE URNA (B.U.) OU DA URNA ELETRÔNICA (U.E.) ENCERRADA COM AUSÊNCIA DA MÍDIA DE RESULTADO (M.R.).": {
     images: [
