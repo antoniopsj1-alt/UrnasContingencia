@@ -14,6 +14,21 @@ body{
     display:none;
 }
 
+.tutorial-image-card{
+    margin-bottom:10px;
+    background:#0f172a;
+    border:1px solid #334155;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.tutorial-caption{
+    padding:12px;
+    background:#0f172a;
+    color:white;
+    border-top:1px solid #334155;
+}
+
 .fade{
     animation:fade .35s ease;
 }
@@ -58,7 +73,6 @@ body{
 
 .image-placeholder{
     position:relative;
-    min-height:280px;
     background:linear-gradient(
         135deg,
         #1e293b,
@@ -66,8 +80,8 @@ body{
     );
     border-radius:20px;
     border:1px solid #334155;
-    overflow-y:auto;
-    overflow-x:hidden;
+    overflow:hidden;
+    height:100%;
 }
 
 @media(min-width:1024px){
@@ -78,32 +92,37 @@ body{
 
 .tutorial-image{
     width:100%;
-    height:100%;
-    min-height:280px;
+    min-width:100%;
+    height:auto;
     object-fit:contain;
-    background:#0f172a;
+    border-radius:8px;
+    display:block;
 }
 
-.tutorial-images-list {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    overflow-y: auto;
-    padding: 20px;
+.tutorial-images-list{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+    padding:2px;
+    overflow-y:scroll;
+    overflow-x:hidden;
 }
 
-.tutorial-images-list .tutorial-image {
-    width: 100%;
-    height: auto;
-    min-height: 0;
-    object-fit: contain;
-    border-radius: 12px;
-    display: block;
-    flex-shrink: 0;
+
+.tutorial-images-list::-webkit-scrollbar{
+    width:12px;
 }
 
+.tutorial-images-list::-webkit-scrollbar-track{
+    background:#1e293b;
+}
+
+.tutorial-images-list::-webkit-scrollbar-thumb{
+    background:#06b6d4;
+    border-radius:10px;
+}
 
 .image-caption{
     position:absolute;
@@ -262,35 +281,15 @@ body{
 }
 
 @media(max-width:768px){
-    h1{
-        font-size:2rem !important;
-        text-align:center;
-    }
 
-    h2{
-        font-size:1.5rem !important;
-    }
-
-    .action-btn{
-        width:100%;
-    }
-
-    .mobile-stack{
-        flex-direction:column;
-    }
-
-    /* Área das imagens */
-    .image-placeholder{
-        min-height:260px;
-        max-height:70vh;
-        overflow-y:auto;
-        -webkit-overflow-scrolling: touch;
+    .tutorial-layout{
+        grid-template-columns:40% 60%;
     }
 
     .tutorial-images-list{
-        max-height:70vh;
-        overflow-y:auto;
-        overflow-x:hidden;
-        -webkit-overflow-scrolling: touch;
+        max-height:65vh;
+        overflow-y:scroll;
     }
+
+
 }

@@ -96,202 +96,604 @@ tutorials:[
 // Para usar imagens reais, coloque os arquivos na pasta "imagens" e ajuste o campo image.
 const tutorialDetails = {
   "Como REINICIAR A URNA ELETRÔNICA (U.E.).": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "01 - REINICIAR - 02.png",
-            "01 - REINICIAR - 03.png"
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Passo 2 - Desligar a Urna Eletrônica (U.E.)."
+        },
+        {
+            src: "01 - REINICIAR - 02.png",
+            caption: "Passo 4 - Religar a Urna Eletrônica (U.E.)."
+        },
+        {
+            src: "01 - REINICIAR - 03.png",
+            caption: "Passo 5 e 6 - Observar a tela reinicialização do sistema."
+        }
             ],
     video: "videos/01-reiniciar-urna.mp4",
     instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Aguarde pelo menos 10 segundos.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Observe a tela reiniciar.","Verifique se o problema foi resolvido.","Caso o problema persista, repita os passos 2 a 6 até no máximo duas vezes.","Se o problema for resolvido, a votação deve retornar ao normal imediatamente.","Se o problema continuar, siga para a Contingência 2."]
   },
   "Como fazer a VERIFICAÇÃO DA MÍDIA DE VOTAÇÃO (M.V.).": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "02 - VERIFICAR MV - 01.png",
-            "02 - VERIFICAR MV - 02.png",
-            "02 - VERIFICAR MV - 03.png",
-            "01 - REINICIAR - 02.png",
-            "01 - REINICIAR - 03.png",
-            "02 - VERIFICAR MV - 04.png",
-            "02 - VERIFICAR MV - 05.png"
-            ],
+   images: [
+    {
+        src: "01 - REINICIAR - 01.png",
+        caption: "Passo 2 - Desligar a Urna Eletrônica (U.E.)."
+    },
+    {
+        src: "02 - VERIFICAR MV - 01.png",
+        caption: "Passo 4 - Rompa o lacre da Mídia de Votação (M.V.)."
+    },
+    {
+        src: "02 - VERIFICAR MV - 02.png",
+        caption: "Passo 5 - Retire o parafuso da Mídia de Votação (M.V.)."
+    },
+    {
+        src: "02 - VERIFICAR MV - 03.png",
+        caption: "Passo 6 e 7 - Retire e Insira a Mídia de Votação (M.V.)."
+    },
+    {
+        src: "01 - REINICIAR - 02.png",
+        caption: "Passo 8 - Religar a Urna Eletrônica (U.E.)."
+    },
+    {
+        src: "01 - REINICIAR - 03.png",
+        caption: "Passo 9 - Verifique se o problema foi resolvido."
+    },
+    {
+        src: "02 - VERIFICAR MV - 04.png",
+        caption: "Passo 10 - parafuse a tampa da Mídia de Votação (M.V.)."
+    },
+    {
+        src: "02 - VERIFICAR MV - 05.png",
+        caption: "Passo 11 - Instale um novo lacre na tampa da Mídia de Votação (M.V.)."
+    }
+],
     video: "videos/02-verificacao-midia-votacao.mp4",
     instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários. ", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Rompa o lacre da Mídia de Votação (M.V.).","Solte o parafuso da tampa do compartimento da Mídia de Votação (M.V.).","Retire a Mídia de Votação (M.V.).","Insira novamente a Mídia de Votação (M.V.), encaixando-a perfeitamente.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente a tampa da Mídia de Votação (M.V.).","Instale um novo lacre no local.","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 3."]
   },
   "Como fazer a SUBSTITUIÇÃO DA URNA ELETRÔNICA (U.E.) COM DEFEITO PELA URNA ELETRÔNICA (U.E.) DE CONTINGÊNCIA.": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "03 - SUBSTITUIR UE - 01.png",
-            "02 - VERIFICAR MV - 01.png",
-            "02 - VERIFICAR MV - 02.png",          
-            "03 - SUBSTITUIR UE - 02.png",
-            "03 - SUBSTITUIR UE - 03.png",
-            "03 - SUBSTITUIR UE - 04.png",
-            "03 - SUBSTITUIR UE - 05.png",
-            "03 - SUBSTITUIR UE - 06.png",
-            "01 - REINICIAR - 02.png",
-            "01 - REINICIAR - 03.png",
-            "02 - VERIFICAR MV - 04.png",
-            "02 - VERIFICAR MV - 05.png"
-            ],
+images: [
+    {
+        src: "01 - REINICIAR - 01.png",
+        caption: "Passo 2 - Desligar a Urna Eletrônica (U.E.)."
+    },
+    {
+        src: "03 - SUBSTITUIR UE - 01.png",
+        caption: "Passo 4 - Retire o lacre da Mídia de Resultado (M.R.)."
+    },
+    {
+        src: "02 - VERIFICAR MV - 01.png",
+        caption: "Passo 5 - Retire o lacre da Mídia de Votação (M.V.)."
+    },
+    {
+        src: "02 - VERIFICAR MV - 02.png",
+        caption: "Passo 6 - Solte o parafuso da tampa e abra os compartimentos das mídias"
+    },
+    {
+        src: "03 - SUBSTITUIR UE - 02.png",
+        caption: "Passo 7 - Retire a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.)."
+    },
+    {
+        src: "03 - SUBSTITUIR UE - 03.png",
+        caption: "Passo 8 - Substitua o Urna Eletrônica (U.E.) com defeito pela de contingência."
+    },
+    {
+        src: "03 - SUBSTITUIR UE - 04.png",
+        caption: "Passo 9 - Retire o lacres (M.V e M.R) da Urna de contingência."
+    },
+    {
+        src: "03 - SUBSTITUIR UE - 05.png",
+        caption: "Passo 10 -  Solte o parafuso da tampa e abra os compartimentos das mídia"
+    },
+    {
+        src: "03 - SUBSTITUIR UE - 06.png",
+        caption: "Passo 11 - Insira a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.) na Urna de Contingência."
+    },
+    {
+        src: "01 - REINICIAR - 02.png",
+        caption: "Passo 12 - Ligue a urna pressionando o botão verde."
+    },
+    {
+        src: "01 - REINICIAR - 03.png",
+        caption: "Passo 13 - Verifique se o problema foi resolvido."
+    },
+    {
+        src: "02 - VERIFICAR MV - 04.png",
+        caption: "Passo 14 - Encaixe e Parafuse as tampas da mídia"
+    },
+    {
+        src: "02 - VERIFICAR MV - 05.png",
+        caption: "Passo 15 - Instale um novo lacre sobre as tampas das mídias"
+    }
+],
     video: "videos/03-substituicao-ue.mp4",
     instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "Desligue a urna.", "É necessário utilizar uma chave Philips.","Retire o lacre da Mídia de Resultado (M.R.).","Retire o lacre da Mídia de Votação (M.V.). ","Solte os parafusos das tampas e abra os compartimentos das mídias (M.V. e M.R.).","Retire a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.).","Substitua o Urna Eletrônica (U.E.) com defeito pela Urna Eletrônica (U.E.) de contingência.","Retire o lacres (M.V e M.R) da Urna Eletrônica (U.E.) de contingência.","Solte os parafusos das tampas e abra os compartimentos das mídias da Urna de Contingência.","Insira a Mídia de Resultado (M.R.) e a Mídia de Votação (M.V.) na Urna de Contingência","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente e fixe as tampas das mídias (M.V. e M.R.).","Instale um novo lacre sobre as tampas das mídias","A votação deve retornar ao funcionamento normal imediatamente.","Se o problema persistir, siga para a Contingência 4."]
   },
   "Como fazer a SUBSTITUIÇÃO DA MÍDIA DE VOTAÇÃO (M.V.) DA URNA ELETRÔNICA (U.E.) COM DEFEITO PELA MÍDIA DE VOTAÇÃO (M.V.) DE CONTINGÊNCIA.": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "04 - TROCAR MV - 01.png",
-            "03 - SUBSTITUIR UE - 06.png",
-            "01 - REINICIAR - 02.png",
-            "01 - REINICIAR - 03.png",
-            "02 - VERIFICAR MV - 04.png",
-            "02 - VERIFICAR MV - 05.png"
+    images: [
+    {
+        src: "01 - REINICIAR - 01.png",
+        caption: "Legenda 1"
+    },
+    {
+        src: "04 - TROCAR MV - 01.png",
+        caption: "Legenda 2"
+    },
+    {
+        src: "03 - SUBSTITUIR UE - 06.png",
+        caption: "Legenda 3"
+    },
+    {
+        src: "01 - REINICIAR - 02.png",
+        caption: "Legenda 4"
+    },
+    {
+        src: "01 - REINICIAR - 03.png",
+        caption: "Legenda 5"
+    },
+    {
+        src: "02 - VERIFICAR MV - 04.png",
+        caption: "Legenda 6"
+    },
+    {
+        src: "02 - VERIFICAR MV - 05.png",
+        caption: "Legenda 7"
+    }
+            
             ],
     video: "videos/04-substituicao-mv.mp4",
     instructions: ["Os processos de contingência devem ser acompanhados pelos fiscais e mesários.", "É necessário utilizar uma chave Philips.", "Desligue a urna.","Retire as Mídia de Votação (M.V.) e a Mídia de Resultado (M.R.) da Urna de Contingência.","Substitua inserindo a Mídia de Votação (M.V.) de Contingência na Urna de Contingência.","Insira a Mídia de Resultado (M.R.) na Urna de Contingência.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Verifique se o problema foi resolvido.","Se o problema for resolvido, parafuse novamente e fixe as tampas das mídias (M.V. e M.R.).","Instale um novo lacre nas tampas das mídias.","A votação deve retornar ao funcionamento normal imediatamente.","Caso o problema persista, entre em contato com o responsável pelo cartório eleitoral para solicitar a realização da votação de forma manual, utilizando cédulas de papel."]
   },
   "Como executar o RED (RECUPERADOR DE DADOS) da URNA ELETRÔNICA (U.E.) ENCERRADA COM AUSÊNCIA DE BOLETIM DE URNA (B.U.) OU DA URNA ELETRÔNICA (U.E.) ENCERRADA COM AUSÊNCIA DA MÍDIA DE RESULTADO (M.R.).": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "03 - SUBSTITUIR UE - 01.png",
-            "05 - RED - 01.png",
-            "05 - RED - 02.png",
-            "01 - REINICIAR - 02.png",
-            "01 - REINICIAR - 03.png",
-            "05 - RED - 03.png",
-            "05 - RED - 04.png",
-            "05 - RED - 05.png",
-            "05 - RED - 10.png",
-            "05 - RED - 06.png",
-            "05 - RED - 07.png",
-            "05 - RED - 08.png",
-            "05 - RED - 09.png",
-            "05 - RED - 11.png",
-            "05 - RED - 12.png",
-            "05 - RED - 13.png",
-            "05 - RED - 14.png",
-            "05 - RED - 15.png",
-            "05 - RED - 16.png",
-            "05 - RED - 17.png",
-            "05 - RED - 18.png",
-            "01 - REINICIAR - 01.png"
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        },
+        {
+            src: "03 - SUBSTITUIR UE - 01.png",
+            caption: "Legenda02"
+        },
+        {
+            src: "05 - RED - 01.png",
+            caption: "Legenda03"
+        },
+        {
+            src: "05 - RED - 02.png",
+            caption: "Legenda04"
+        },
+        {
+            src: "01 - REINICIAR - 02.png",
+            caption: "Legenda05"
+        },
+        {
+            src: "01 - REINICIAR - 03.png",
+            caption: "Legenda06"
+        },
+        {
+            src: "05 - RED - 03.png",
+            caption: "Legenda07"
+        },
+        {
+            src: "05 - RED - 04.png",
+            caption: "Legenda08"
+        },
+        {
+            src: "05 - RED - 05.png",
+            caption: "Legenda09"
+        },
+        {
+            src: "05 - RED - 10.png",
+            caption: "Legenda10"
+        },
+        {
+            src: "05 - RED - 06.png",
+            caption: "Legenda11"
+        },
+        {
+            src: "05 - RED - 07.png",
+            caption: "Legenda12"
+        },
+        {
+            src: "05 - RED - 08.png",
+            caption: "Legenda13"
+        },
+        {
+            src: "05 - RED - 09.png",
+            caption: "Legenda14"
+        },
+        {
+            src: "05 - RED - 11.png",
+            caption: "Legenda15"
+        },
+        {
+            src: "05 - RED - 12.png",
+            caption: "Legenda16"
+        },
+        {
+            src: "05 - RED - 13.png",
+            caption: "Legenda17"
+        },
+        {
+            src: "05 - RED - 14.png",
+            caption: "Legenda18"
+        },
+        {
+            src: "05 - RED - 15.png",
+            caption: "Legenda19"
+        },
+        {
+            src: "05 - RED - 16.png",
+            caption: "Legenda20"
+        },
+        {
+            src: "05 - RED - 17.png",
+            caption: "Legenda21"
+        },
+        {
+            src: "05 - RED - 18.png",
+            caption: "Legenda22"
+        },
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda23"
+        }
             ],
     video: "videos/05-red-encerrada.mp4",
     instructions: ["Utilize uma chave Phillips adequada para todas as operações de abertura e fechamento de compartimento.", "Prepare uma Mídia RED específica para o procedimento.","Prepare uma Mídia de Resultado (M.R.) específica para receber as informações do sistema.","Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.","Retire o lacre da Mídia de Resultado (M.R.) na Urna Eletrônica (U.E.).","Destrave e abra a tampa do compartimento da Mídia de Resultado (M.R.).","Retire a Mídia de Resultado (M.R.) da U.E.","Insira a Mídia RED no slot da Mídia de Resultado.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Aguarde a inicialização completa do sistema.","Digite o código de acesso ao RECUPERADOR DE DADOS quando solicitado.","Na tela, serão exibidas todas as informações a serem recuperadas, incluindo o status da urna: **ENCERRADA** ou **NÃO ENCERRADA**.","Caso a urna esteja **ENCERRADA**, selecione uma das opções seguintes:<br>[1] - Copiar resultado para o Totalizador<br>[2] - Imprimir Boletim de Urna (BU)<br>[3] - Imprimir Boletim de Urna de Justiça (BUJ)<br>[4] - Imprimir Boletim de Mesários (B.I.M.)<br>[9] - Finalizar o procedimento de recuperação de dados","Digite: **1** para copiar o resultado para o totalizador.","Pressione o botão **CONFIRMA**.","A urna irá imprimir a 1ª via do Boletim de Urna (B.U.).","Após a impressão, na tela aparecerá a mensagem:*Por favor, verifique se o Boletim de Urna foi impresso corretamente e de forma legível.*","Confirme pressionando **CONFIRMA** se a impressão estiver correta.","A urna imprimirá as seguintes vias/documentos:<br>- 2ª via do Boletim de Urna (B.U.)<br>- 1ª via do Boletim de Justificativa (B.U.J.)<br>- 1ª via do Boletim de Mesários (B.I.M.)","Após as impressões, na tela será exibida a mensagem: *Por favor, insira uma mídia de resultado válida para gravar os dados.*","Retire a Mídia RED.","Insira novamente a Mídia de Resultado (M.R.) específica.","Pressione o botão **CONFIRMA** para iniciar a gravação.","Aguarde a confirmação de gravação bem-sucedida.","Quando aparecer na tela: *Mídia de resultado gravada com sucesso. Por favor, retire a mídia...*",
     "Retire a Mídia de Resultado (M.R.) específica.","A urna perguntará sobre o número de cópias adicionais do Boletim de Urna (B.U.).","Digite o número desejado de cópias.","Confirme pressionando **CONFIRMA** ou finalize sem impressões adicionais pressionando **CORRIGE**.","Na tela será exibida a mensagem **Lacre a tampa dos compartimentos da mídia de resultado e mídia externa**","Proceda fixando a tampa do compartimento da Mídia de Resultado (M.R.).","Instale um novo lacre sobre a tampa da Mídia de Resultado (M.R.).","Confirme pressionando **CONFIRMA**.","A mensagem na tela será: *Operação realizada com sucesso. Desligue a urna.*","Confirme pressionando **CONFIRMA**.","Desligue a urna eletrônica pressionando o botão vermelho localizado na parte traseira."]
   },
   "Como executar o RED (RECUPERADOR DE DADOS) da URNA ELETRÔNICA (U.E.) NÃO ENCERRADA SEM VOTAÇÃO MISTA.": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "03 - SUBSTITUIR UE - 01.png",
-            "05 - RED - 01.png",
-            "05 - RED - 02.png",
-            "01 - REINICIAR - 02.png",
-            "01 - REINICIAR - 03.png",
-            "05 - RED - 03.png",
-            "05 - RED - 20.png",
-            "05 - RED - 05.png",
-            "05 - RED - 10.png",
-            "05 - RED - 06.png",
-            "05 - RED - 07.png",
-            "05 - RED - 08.png",
-            "05 - RED - 09.png",
-            "05 - RED - 11.png",
-            "05 - RED - 12.png",
-            "05 - RED - 13.png",
-            "05 - RED - 14.png",
-            "05 - RED - 15.png",
-            "05 - RED - 16.png",
-            "05 - RED - 17.png",
-            "05 - RED - 18.png",
-            "01 - REINICIAR - 01.png"
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        },
+        {
+            src: "03 - SUBSTITUIR UE - 01.png",
+            caption: "Legenda02"
+        },
+        {
+            src: "05 - RED - 01.png",
+            caption: "Legenda03"
+        },
+        {
+            src: "05 - RED - 02.png",
+            caption: "Legenda04"
+        },
+        {
+            src: "01 - REINICIAR - 02.png",
+            caption: "Legenda05"
+        },
+        {
+            src: "01 - REINICIAR - 03.png",
+            caption: "Legenda06"
+        },
+        {
+            src: "05 - RED - 03.png",
+            caption: "Legenda07"
+        },
+        {
+            src: "05 - RED - 20.png",
+            caption: "Legenda08"
+        },
+        {
+            src: "05 - RED - 05.png",
+            caption: "Legenda09"
+        },
+        {
+            src: "05 - RED - 10.png",
+            caption: "Legenda10"
+        },
+        {
+            src: "05 - RED - 06.png",
+            caption: "Legenda11"
+        },
+        {
+            src: "05 - RED - 07.png",
+            caption: "Legenda12"
+        },
+        {
+            src: "05 - RED - 08.png",
+            caption: "Legenda13"
+        },
+        {
+            src: "05 - RED - 09.png",
+            caption: "Legenda14"
+        },
+        {
+            src: "05 - RED - 11.png",
+            caption: "Legenda15"
+        },
+        {
+            src: "05 - RED - 12.png",
+            caption: "Legenda16"
+        },
+        {
+            src: "05 - RED - 13.png",
+            caption: "Legenda17"
+        },
+        {
+            src: "05 - RED - 14.png",
+            caption: "Legenda18"
+        },
+        {
+            src: "05 - RED - 15.png",
+            caption: "Legenda19"
+        },
+        {
+            src: "05 - RED - 16.png",
+            caption: "Legenda20"
+        },
+        {
+            src: "05 - RED - 17.png",
+            caption: "Legenda21"
+        },
+        {
+            src: "05 - RED - 18.png",
+            caption: "Legenda22"
+        },
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda23"
+        }
             ],
     video: "videos/05-red-encerrada.mp4",
     instructions: ["Utilize uma chave Phillips adequada para todas as operações de abertura e fechamento de compartimento.", "Prepare uma Mídia RED específica para o procedimento.","Prepare uma Mídia de Resultado (M.R.) específica para receber as informações do sistema.","Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.","Retire o lacre da Mídia de Resultado (M.R.) na Urna Eletrônica (U.E.).","Destrave e abra a tampa do compartimento da Mídia de Resultado (M.R.).","Retire a Mídia de Resultado (M.R.) da U.E.","Insira a Mídia RED no slot da Mídia de Resultado.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Aguarde a inicialização completa do sistema.","Digite o código de acesso ao RECUPERADOR DE DADOS quando solicitado.","Na tela, serão exibidas todas as informações a serem recuperadas, incluindo o status da urna: **ENCERRADA** ou **NÃO ENCERRADA**.","Caso a urna esteja **NÃO ENCERRADA**, selecione uma das opções seguintes:<br>[1] - Gerar BU para Sistema de Apuração<br>[2] - Gerar resultados para Totalizados<br>[9] - Finalizar Recuperador de Dados","Digite: 2 para Sessão com votação totalmente Eletrônica.","Pressione o botão **CONFIRMA**.","A urna irá imprimir a 1ª via do Boletim de Urna (B.U.).","Após a impressão, na tela aparecerá a mensagem:*Por favor, verifique se o Boletim de Urna foi impresso corretamente e de forma legível.*","Confirme pressionando **CONFIRMA** se a impressão estiver correta.","A urna imprimirá as seguintes vias/documentos:<br>- 2ª via do Boletim de Urna (B.U.)<br>- 1ª via do Boletim de Justificativa (B.U.J.)<br>- 1ª via do Boletim de Mesários (B.I.M.)","Após as impressões, na tela será exibida a mensagem: *Por favor, insira uma mídia de resultado válida para gravar os dados.*","Retire a Mídia RED.","Insira novamente a Mídia de Resultado (M.R.) específica.","Pressione o botão **CONFIRMA** para iniciar a gravação.","Aguarde a confirmação de gravação bem-sucedida.","Quando aparecer na tela: *Mídia de resultado gravada com sucesso. Por favor, retire a mídia...*","Retire a Mídia de Resultado (M.R.) específica.","A urna perguntará sobre o número de cópias adicionais do Boletim de Urna (B.U.).",
     "Digite o número desejado de cópias.","Confirme pressionando **CONFIRMA** ou finalize sem impressões adicionais pressionando **CORRIGE**.","Na tela será exibida a mensagem **Lacre a tampa dos compartimentos da mídia de resultado e mídia externa**","Proceda fixando a tampa do compartimento da Mídia de Resultado (M.R.).","Instale um novo lacre sobre a tampa da Mídia de Resultado (M.R.).","Confirme pressionando **CONFIRMA**.","A mensagem na tela será: *Operação realizada com sucesso. Desligue a urna.*","Confirme pressionando **CONFIRMA**.","Desligue a urna eletrônica pressionando o botão vermelho localizado na parte traseira."]
   },
   "Como executar o RED (RECUPERADOR DE DADOS) da URNA ELETRÔNICA (U.E.) NÃO ENCERRADA COM VOTAÇÃO MISTA.": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "03 - SUBSTITUIR UE - 01.png",
-            "05 - RED - 01.png",
-            "05 - RED - 02.png",
-            "01 - REINICIAR - 02.png",
-            "01 - REINICIAR - 03.png",
-            "05 - RED - 03.png",
-            "05 - RED - 19.png",
-            "05 - RED - 05.png",
-            "05 - RED - 10.png",
-            "05 - RED - 06.png",
-            "05 - RED - 07.png",
-            "05 - RED - 08.png",
-            "05 - RED - 09.png",
-            "05 - RED - 11.png",
-            "05 - RED - 12.png",
-            "05 - RED - 13.png",
-            "05 - RED - 14.png",
-            "05 - RED - 15.png",
-            "05 - RED - 16.png",
-            "05 - RED - 17.png",
-            "05 - RED - 18.png",
-            "01 - REINICIAR - 01.png"
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        },
+        {
+            src: "03 - SUBSTITUIR UE - 01.png",
+            caption: "Legenda02"
+        },
+        {
+            src: "05 - RED - 01.png",
+            caption: "Legenda03"
+        },
+        {
+            src: "05 - RED - 02.png",
+            caption: "Legenda04"
+        },
+        {
+            src: "01 - REINICIAR - 02.png",
+            caption: "Legenda05"
+        },
+        {
+            src: "01 - REINICIAR - 03.png",
+            caption: "Legenda06"
+        },
+        {
+            src: "05 - RED - 03.png",
+            caption: "Legenda07"
+        },
+        {
+            src: "05 - RED - 19.png",
+            caption: "Legenda08"
+        },
+        {
+            src: "05 - RED - 05.png",
+            caption: "Legenda09"
+        },
+        {
+            src: "05 - RED - 10.png",
+            caption: "Legenda10"
+        },
+        {
+            src: "05 - RED - 06.png",
+            caption: "Legenda11"
+        },
+        {
+            src: "05 - RED - 07.png",
+            caption: "Legenda12"
+        },
+        {
+            src: "05 - RED - 08.png",
+            caption: "Legenda13"
+        },
+        {
+            src: "05 - RED - 09.png",
+            caption: "Legenda14"
+        },
+        {
+            src: "05 - RED - 11.png",
+            caption: "Legenda15"
+        },
+        {
+            src: "05 - RED - 12.png",
+            caption: "Legenda16"
+        },
+        {
+            src: "05 - RED - 13.png",
+            caption: "Legenda17"
+        },
+        {
+            src: "05 - RED - 14.png",
+            caption: "Legenda18"
+        },
+        {
+            src: "05 - RED - 15.png",
+            caption: "Legenda19"
+        },
+        {
+            src: "05 - RED - 16.png",
+            caption: "Legenda20"
+        },
+        {
+            src: "05 - RED - 17.png",
+            caption: "Legenda21"
+        },
+        {
+            src: "05 - RED - 18.png",
+            caption: "Legenda22"
+        },
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda23"
+        }
             ],
     video: "videos/05-red-encerrada.mp4",
     instructions: ["Utilize uma chave Phillips adequada para todas as operações de abertura e fechamento de compartimento.", "Prepare uma Mídia RED específica para o procedimento.","Prepare uma Mídia de Resultado (M.R.) específica para receber as informações do sistema.","Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.","Retire o lacre da Mídia de Resultado (M.R.) na Urna Eletrônica (U.E.).","Destrave e abra a tampa do compartimento da Mídia de Resultado (M.R.).","Retire a Mídia de Resultado (M.R.) da U.E.","Insira a Mídia RED no slot da Mídia de Resultado.","Ligue a urna pressionando o botão verde antes de fechar o compartimento da mídia.","Aguarde a inicialização completa do sistema.","Digite o código de acesso ao RECUPERADOR DE DADOS quando solicitado.","Na tela, serão exibidas todas as informações a serem recuperadas, incluindo o status da urna: **ENCERRADA** ou **NÃO ENCERRADA**.","Caso a urna esteja **NÃO ENCERRADA**, selecione uma das opções seguintes:<br>[1] - Gerar BU para Sistema de Apuração<br>[2] - Gerar resultados para Totalizados<br>[9] - Finalizar Recuperador de Dados","Digite: 1 para Sessão Mista com votação Eletrônica e com votação Manual.","Pressione o botão **CONFIRMA**.","A urna irá imprimir a 1ª via do Boletim de Urna (B.U.).","Após a impressão, na tela aparecerá a mensagem:*Por favor, verifique se o Boletim de Urna foi impresso corretamente e de forma legível.*","Confirme pressionando **CONFIRMA** se a impressão estiver correta.","A urna imprimirá as seguintes vias/documentos:<br>- 2ª via do Boletim de Urna (B.U.)<br>- 1ª via do Boletim de Justificativa (B.U.J.)<br>- 1ª via do Boletim de Mesários (B.I.M.)","Após as impressões, na tela será exibida a mensagem: *Por favor, insira uma mídia de resultado válida para gravar os dados.*","Retire a Mídia RED.","Insira novamente a Mídia de Resultado (M.R.) específica.","Pressione o botão **CONFIRMA** para iniciar a gravação.","Aguarde a confirmação de gravação bem-sucedida.","Quando aparecer na tela: *Mídia de resultado gravada com sucesso. Por favor, retire a mídia...*","Retire a Mídia de Resultado (M.R.) específica.","A urna perguntará sobre o número de cópias adicionais do Boletim de Urna (B.U.).",
     "Digite o número desejado de cópias.","Confirme pressionando **CONFIRMA** ou finalize sem impressões adicionais pressionando **CORRIGE**.","Na tela será exibida a mensagem **Lacre a tampa dos compartimentos da mídia de resultado e mídia externa**","Proceda fixando a tampa do compartimento da Mídia de Resultado (M.R.).","Instale um novo lacre sobre a tampa da Mídia de Resultado (M.R.).","Confirme pressionando **CONFIRMA**.","A mensagem na tela será: *Operação realizada com sucesso. Desligue a urna.*","Confirme pressionando **CONFIRMA**.","Desligue a urna eletrônica pressionando o botão vermelho localizado na parte traseira."]      
   },
   "Como VERIFICAR A BOBINA DE PAPEL.": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "06 - MODULO_IMPRESSOR - 01.png",
-            "06 - MODULO_IMPRESSOR - 02.png",
-            "06 - MODULO_IMPRESSOR - 03.png",
-            "06 - MODULO_IMPRESSOR - 12.png",
-            "06 - MODULO_IMPRESSOR - 13.png",
-            "01 - REINICIAR - 02.png"
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 01.png",
+            caption: "Legenda02"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 02.png",
+            caption: "Legenda03"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 03.png",
+            caption: "Legenda04"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 12.png",
+            caption: "Legenda05"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 13.png",
+            caption: "Legenda06"
+        },
+        {
+            src: "01 - REINICIAR - 02.png",
+            caption: "Legenda07"
+        }
             ],
     video: "videos/08-conferir-bobina.mp4",
     instructions: ["Ferramenta necessária: chave Phillips.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Com a chave Phillips, retire o parafuso que fixa o módulo impressor na urna eletrônica.","Puxe suavemente o módulo impressor para desacoplar da urna eletrônica.","Observe pela fresta lateral do módulo impressor o diâmetro do papel restante na bobina.","Verifique visualmente se há quantidade suficiente de papel para a operação ou se será necessário trocar a bobina.","Se não for necessário substituir a bobina de papel, reconecte o módulo impressor na urna eletrônica, garantindo que esteja encaixado corretamente.","Parafuse novamente o módulo na urna usando a chave Phillips.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Se a quantidade de papel for insuficiente, prossiga com a troca da bobina de papel."]
   },
   "Como fazer a TROCA DA BOBINA DE PAPEL.": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "06 - MODULO_IMPRESSOR - 01.png",
-            "06 - MODULO_IMPRESSOR - 02.png",
-            "06 - MODULO_IMPRESSOR - 03.png",
-            "06 - MODULO_IMPRESSOR - 04.png",
-            "06 - MODULO_IMPRESSOR - 05.png",
-            "06 - MODULO_IMPRESSOR - 06.png",
-            "06 - MODULO_IMPRESSOR - 07.png",
-            "06 - MODULO_IMPRESSOR - 08.png",
-            "06 - MODULO_IMPRESSOR - 09.png",
-            "06 - MODULO_IMPRESSOR - 10.png",
-            "06 - MODULO_IMPRESSOR - 11.png",
-            "06 - MODULO_IMPRESSOR - 12.png",
-            "06 - MODULO_IMPRESSOR - 13.png",
-            "01 - REINICIAR - 02.png"
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 01.png",
+            caption: "Legenda02"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 02.png",
+            caption: "Legenda03"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 03.png",
+            caption: "Legenda04"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 04.png",
+            caption: "Legenda05"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 05.png",
+            caption: "Legenda06"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 06.png",
+            caption: "Legenda07"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 07.png",
+            caption: "Legenda08"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 08.png",
+            caption: "Legenda09"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 09.png",
+            caption: "Legenda10"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 10.png",
+            caption: "Legenda11"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 11.png",
+            caption: "Legenda12"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 12.png",
+            caption: "Legenda13"
+        },
+        {
+            src: "06 - MODULO_IMPRESSOR - 13.png",
+            caption: "Legenda14"
+        },
+        {
+            src: "01 - REINICIAR - 02.png",
+            caption: "Legenda15"
+        }
             ],
     video: "videos/08-conferir-bobina.mp4",
     instructions: ["Ferramentas necessárias: chave Phillips.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Com a chave Phillips, retire o parafuso que fixa o módulo impressor na urna eletrônica.","Puxe suavemente o módulo impressor para desacoplar da Urna Eletrônica.","Coloque o módulo deitado com a saída de papel voltada para cima.","Aperte a trava e abra a tampa do módulo impressor, deixando a bobina de papel exposta.","Mova a alavanca amarela até destravar a portinhola que segura o papel.","Retire a bobina de papel usada.","Pegue uma nova bobina de papel e coloque no suporte, na posição correta (normalmente, o papel deve desenrolar no sentido anti-horário).","Puxe a ponta do papel até sair da bobina e do módulo.","Feche a portinhola para travar a nova bobina no lugar.","Feche a tampa do módulo pressionando até ouvir o som de travamento.","Com o módulo ainda deitado, puxe a ponta do papel para fora do módulo, garantindo que esteja bem alinhada.","Recoloque o módulo impressor na urna eletrônica, encaixando corretamente.","Parafuse novamente o módulo na urna usando a chave Phillips.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Faça testes de impressão para garantir que o papel está sendo alimentado corretamente."]
   },
   "Como fazer a SUBSTITUIÇÃO DA BOBINA DE PAPEL.": {
-    image: [
-            "01 - REINICIAR - 01.png",
-            "07 - Troca_Bobina - 01.png",
-            "07 - Troca_Bobina - 02.png",
-            "07 - Troca_Bobina - 03.png",
-            "07 - Troca_Bobina - 04.png",
-            "07 - Troca_Bobina - 05.png",
-            "07 - Troca_Bobina - 06.png",
-            "07 - Troca_Bobina - 07.png",
-            "07 - Troca_Bobina - 08.png",
-            "01 - REINICIAR - 02.png"
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        },
+        {
+            src: "07 - Troca_Bobina - 01.png",
+            caption: "Legenda02"
+        },
+        {
+            src: "07 - Troca_Bobina - 02.png",
+            caption: "Legenda03"
+        },
+        {
+            src: "07 - Troca_Bobina - 03.png",
+            caption: "Legenda04"
+        },
+        {
+            src: "07 - Troca_Bobina - 04.png",
+            caption: "Legenda05"
+        },
+        {
+            src: "07 - Troca_Bobina - 05.png",
+            caption: "Legenda06"
+        },
+        {
+            src: "07 - Troca_Bobina - 06.png",
+            caption: "Legenda07"
+        },
+        {
+            src: "07 - Troca_Bobina - 07.png",
+            caption: "Legenda08"
+        },
+        {
+            src: "07 - Troca_Bobina - 08.png",
+            caption: "Legenda09"
+        },
+        {
+            src: "01 - REINICIAR - 02.png",
+            caption: "Legenda10"
+        }
             ],
     video: "videos/09-troca-bobina.mp4",
     instructions: ["Desligue a urna na chave;", "Aguarde a tela do terminal do eleitor se apagar, sob pena de danos à urna e/ou ao módulo;","Desaperte totalmente o parafuso de fixação do módulo impressor.", "Retire o módulo impressor, puxando firmemente pelas laterais;", "Desaperte o parafuso borboleta (manopla) no sentido anti-horário;", "Retire a tampa lateral;", "Retire a bobina e coloque a nova;", "Gire a engrenagem maior para tracionar o papel;", "Recoloque a tampa lateral, tomando cuidado para não apertar demasiadamente o parafuso corboleta;","Recoloque o módulo de volta ao terminal do eleitor;","Pressione firmemente para assegurar o encaixe, e aperte o parafuso.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna."]
   },
   "Como proceder com a INSTALAÇÃO DA URNA ELETRÔNICA (U.E.)": {
-    image: "imagem/11-instalacao-ue.jpg",
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        }
+        ],
     video: "videos/11-instalacao-ue.mp4",
     instructions: ["Insira aqui a instrução 1 para instalar a U.E.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
   }
@@ -402,47 +804,99 @@ list.innerHTML += `
 
 }
 
-function showTutorial(title){ // MOSTRA UMA TELA PRÓPRIA PARA CADA TÍTULO
-    hideAll();
-    contentScreen.style.display="block";
-    document.getElementById("tutorialTitle").innerHTML=title;
+function escapeHtml(texto) {
+    return String(texto)
+        .replace(/&/g, "&amp;")
+        .replace(/"/g, "&quot;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+}
 
-    const details = tutorialDetails[title] || { image: "", instructions: ["Conteúdo ainda não cadastrado."] };
+// Se a imagem não carregar, mostra um aviso com o nome do arquivo procurado
+function imagemComErro(img) {
+    const arquivo = decodeURI(img.getAttribute("src"));
+    console.log("Imagem não encontrada:", arquivo);
+    img.style.display = "none";
+
+    const aviso = document.createElement("div");
+    aviso.style.cssText = "padding:16px;color:#fca5a5;border:2px dashed #ff3355;font-size:.9rem;";
+    aviso.textContent = "⚠ Imagem não encontrada: " + arquivo;
+    img.after(aviso);
+}
+
+function showTutorial(title) {
+
+    hideAll();
+    contentScreen.style.display = "block";
+
+    document.getElementById("tutorialTitle").innerHTML = title;
+
+    const details = tutorialDetails[title] || {
+        images: [],
+        instructions: ["Conteúdo ainda não cadastrado."]
+    };
+
+    // PASSOS
     const content = document.getElementById("tutorialContent");
-    const steps = [...details.instructions, { video: details.video }];
+
+    const steps = [...details.instructions];
+
+    if (details.video) {
+        steps.push({ video: details.video });
+    }
+
     content.innerHTML = steps.map((step, index) => {
-        const texto = typeof step === "string"
-            ? step
-            : `<span>Assista ao vídeo deste procedimento: <a href="${step.video}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 font-semibold hover:underline">▶ Abrir vídeo MP4</a></span>`;
-        return `<li class="flex items-start gap-3">
-            <input type="checkbox" class="mt-1 h-5 w-5 accent-cyan-500 cursor-pointer" aria-label="Conferir passo ${index + 1}">
-            <span class="text-xl font-bold">
-                  <span><span class="text-cyan-400 font-bold">${index + 1}.</span> ${texto}</span>
-            </span>
-        </li>`;
+
+        const texto =
+            typeof step === "string"
+                ? step
+                : `<span>
+                       Assista ao vídeo deste procedimento:
+                       <a href="${encodeURI(step.video)}" target="_blank" rel="noopener" class="text-cyan-400 underline">
+                          ▶ Abrir vídeo MP4
+                       </a>
+                   </span>`;
+
+        return `
+            <li class="flex items-start gap-3">
+                <input
+                    type="checkbox"
+                    class="mt-1 h-5 w-5 accent-cyan-500 cursor-pointer">
+
+                <span class="text-xl font-bold">
+                    <span class="text-cyan-400 font-bold">
+                        ${index + 1}.
+                    </span>
+                    ${texto}
+                </span>
+            </li>
+        `;
     }).join("");
 
+    // IMAGENS (cada imagem com a sua legenda)
     const imageArea = document.getElementById("tutorialImageArea");
 
-// Aceita tanto uma única imagem quanto várias imagens
-const images = Array.isArray(details.image)
-    ? details.image
-    : [details.image];
+    const images = details.images || [];
 
-imageArea.innerHTML = `
-    <div class="tutorial-images-list">
-        ${images.map((src, index) => `
+    const cards = images.map(img => `
+        <div class="tutorial-image-card">
             <img
-                src="${src}"
-                alt="Imagem de apoio ${index + 1}: ${title.replace(/<br>/g, ' ')}"
+                src="${encodeURI(img.src)}"
+                alt="${escapeHtml(img.caption)}"
                 class="tutorial-image"
-                onerror="this.style.display='none';"
+                loading="lazy"
+                onerror="imagemComErro(this)"
             >
-        `).join("")}
-    </div>
-`;
-}
-//fim da função
+            <div class="tutorial-caption">${img.caption}</div>
+        </div>
+    `).join("");
+
+    imageArea.innerHTML = `
+        <div class="tutorial-images-list">
+            ${cards || '<p class="tutorial-caption">Nenhuma imagem cadastrada.</p>'}
+        </div>
+    `;
+}//fim da função
 
 /* ====================================================
     PESQUISA
