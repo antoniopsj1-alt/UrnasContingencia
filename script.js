@@ -252,95 +252,99 @@ images: [
     images: [
         {
             src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
+            caption: "Passo 4 - Desligar a Urna Eletrônica (U.E.)."
         },
         {
             src: "03 - SUBSTITUIR UE - 01.png",
-            caption: "Legenda02"
+            caption: "Passo 5 - Retire o lacre da Mídia de Resultado (M.R.)"
+        },
+        {
+            src: "05 - RED - 21.png",
+            caption: "Passo 6 - Destrave e Abra a tampa do compartimento (M.R.)."
         },
         {
             src: "05 - RED - 01.png",
-            caption: "Legenda03"
+            caption: "Passo 7 - Retire a Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 02.png",
-            caption: "Legenda04"
+            caption: "Passo 8 - Insira a Mídia RED no slot da Mídia de Resultado."
         },
         {
             src: "01 - REINICIAR - 02.png",
-            caption: "Legenda05"
+            caption: "Passo 9 - Ligue a urna pressionando o botão verde."
         },
         {
             src: "01 - REINICIAR - 03.png",
-            caption: "Legenda06"
+            caption: "Passo 10 - Aguarde a inicialização completa do sistema."
         },
         {
             src: "05 - RED - 03.png",
-            caption: "Legenda07"
+            caption: "Passo 11 - Digite o código de acesso ao RECUPERADOR DE DADOS."
         },
         {
             src: "05 - RED - 04.png",
-            caption: "Legenda08"
+            caption: "Passo 13, 14 e 15 - Caso a urna esteja **ENCERRADA**, SEM Boletim de Urna (B.U) ou SEM Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 05.png",
-            caption: "Legenda09"
+            caption: "Passo 16 - Imprimir a 1ª via do Boletim de Urna (B.U.)."
         },
         {
             src: "05 - RED - 10.png",
-            caption: "Legenda10"
+            caption: "Passo 17 e 18 - Confirmação, se a impressão do Boletim de Urna (B.U.) está correta. "
         },
         {
             src: "05 - RED - 06.png",
-            caption: "Legenda11"
+            caption: "Passo 19 - 2ª via do Boletim de Urna (B.U.)."
         },
         {
             src: "05 - RED - 07.png",
-            caption: "Legenda12"
+            caption: "Passo 19 - 1ª via do Boletim de Urna de Justificativa (B.U.J.)."
         },
         {
             src: "05 - RED - 08.png",
-            caption: "Legenda13"
+            caption: "Passo 19 - 1ª via do Boletim de Identificação de Mesários (B.I.M.)."
         },
         {
             src: "05 - RED - 09.png",
-            caption: "Legenda14"
+            caption: "Passo 20 - Solicitação de Mídia de Resultado (M.R.) válida para gravar os dados."
         },
         {
             src: "05 - RED - 11.png",
-            caption: "Legenda15"
+            caption: "Passo 21 - Retirando a Mídia RED."
         },
         {
             src: "05 - RED - 12.png",
-            caption: "Legenda16"
+            caption: "Passo 22 - Insirindo a Mídia de Resultado (M.R.) específica."
         },
         {
             src: "05 - RED - 13.png",
-            caption: "Legenda17"
+            caption: "Passo 23, 24 e 25 - Confirmação de gravação bem-sucedida."
         },
         {
             src: "05 - RED - 14.png",
-            caption: "Legenda18"
+            caption: "Passo 26 - Retire a Mídia de Resultado (M.R.) específica."
         },
         {
             src: "05 - RED - 15.png",
-            caption: "Legenda19"
+            caption: "Passo 27, 28 e 29 - Cópias adicionais do Boletim de Urna (B.U.)."
         },
         {
             src: "05 - RED - 16.png",
-            caption: "Legenda20"
+            caption: "Passo 30 - Mensagem para Lacra a tampa do compartimento da Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 17.png",
-            caption: "Legenda21"
+            caption: "Passo 31, 32 e 33 - Fixando a tampa e o lacre do compartimento da Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 18.png",
-            caption: "Legenda22"
+            caption: "Passo 34 e 35 - Mensagem de Operação realizada com sucesso. Desligue a urna."
         },
         {
             src: "01 - REINICIAR - 01.png",
-            caption: "Legenda23"
+            caption: "Passo 36 - Desligue a urna eletrônica pressionando o botão vermelho."
         }
             ],
     video: "videos/05-red-encerrada.mp4",
@@ -351,95 +355,99 @@ images: [
     images: [
         {
             src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
+            caption: "Passo 4 - Desligar a Urna Eletrônica (U.E.)."
         },
         {
             src: "03 - SUBSTITUIR UE - 01.png",
-            caption: "Legenda02"
+            caption: "Passo 5 - Retire o lacre da Mídia de Resultado (M.R.)."
+        },
+        {
+            src: "05 - RED - 21.png",
+            caption: "Passo 6 - Destrave e Abra a tampa do compartimento (M.R.)."
         },
         {
             src: "05 - RED - 01.png",
-            caption: "Legenda03"
+            caption: "Passo 7 - Retire a Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 02.png",
-            caption: "Legenda04"
+            caption: "Passo 8 - Insira a Mídia RED no slot da Mídia de Resultado."
         },
         {
             src: "01 - REINICIAR - 02.png",
-            caption: "Legenda05"
+            caption: "Passo 9 - Ligue a urna pressionando o botão verde."
         },
         {
             src: "01 - REINICIAR - 03.png",
-            caption: "Legenda06"
+            caption: "Passo 10 - Aguarde o sistema iniciar."
         },
         {
             src: "05 - RED - 03.png",
-            caption: "Legenda07"
+            caption: "Passo 11 - Digite o código de acesso ao RECUPERADOR DE DADOS."
         },
         {
             src: "05 - RED - 20.png",
-            caption: "Legenda08"
+            caption: "Passo 13, 14 e 15 - Tela para **NÃO ENCERRADA**, SEM VOTAÇÃO MISTA (Sessão Totalmente Eletrônica)."
         },
         {
             src: "05 - RED - 05.png",
-            caption: "Legenda09"
+            caption: "Passo 16 - Imprimir a 1ª via do Boletim de Urna (B.U.)."
         },
         {
             src: "05 - RED - 10.png",
-            caption: "Legenda10"
+            caption: "Passo 17 e 18 - Confirmação, se a impressão do Boletim de Urna (B.U.) está correta."
         },
         {
             src: "05 - RED - 06.png",
-            caption: "Legenda11"
+            caption: "Passo 19 - 2ª via do Boletim de Urna (B.U.)."
         },
         {
             src: "05 - RED - 07.png",
-            caption: "Legenda12"
+            caption: "Passo 19 - 1ª via do Boletim de Urna de Justificativa (B.U.J.)."
         },
         {
             src: "05 - RED - 08.png",
-            caption: "Legenda13"
+            caption: "Passo 19 - 1ª via do Boletim de Identificação de Mesários (B.I.M.)."
         },
         {
             src: "05 - RED - 09.png",
-            caption: "Legenda14"
+            caption: "Passo 20 - Solicitação de Mídia de Resultado (M.R.) válida para gravar os dados."
         },
         {
             src: "05 - RED - 11.png",
-            caption: "Legenda15"
+            caption: "Passo 21 - Retirando a Mídia RED."
         },
         {
             src: "05 - RED - 12.png",
-            caption: "Legenda16"
+            caption: "Passo 22 - Insirindo a Mídia de Resultado (M.R.) específica."
         },
         {
             src: "05 - RED - 13.png",
-            caption: "Legenda17"
+            caption: "Passo 23, 24 e 25 - Confirmação de gravação bem-sucedida."
         },
         {
             src: "05 - RED - 14.png",
-            caption: "Legenda18"
+            caption: "Passo 26 - Retire a Mídia de Resultado (M.R.) específica."
         },
         {
             src: "05 - RED - 15.png",
-            caption: "Legenda19"
+            caption: "Passo 27, 28 e 29 - Cópias adicionais do Boletim de Urna (B.U.)."
         },
         {
             src: "05 - RED - 16.png",
-            caption: "Legenda20"
+            caption: "Passo 30 - Mensagem para Lacra a tampa do compartimento da Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 17.png",
-            caption: "Legenda21"
+            caption: "Passo 31, 32 e 33 - Fixando a tampa e o lacre do compartimento da Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 18.png",
-            caption: "Legenda22"
+            caption: "Passo 34 e 35 - Mensagem de Operação realizada com sucesso. Desligue a urna."
         },
         {
             src: "01 - REINICIAR - 01.png",
-            caption: "Legenda23"
+            caption: "Passo 36 - Desligue a urna eletrônica pressionando o botão vermelho."
         }
             ],
     video: "videos/05-red-encerrada.mp4",
@@ -450,95 +458,99 @@ images: [
     images: [
         {
             src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
+            caption: "Passo 4 - Desligar a Urna Eletrônica (U.E.)."
         },
         {
             src: "03 - SUBSTITUIR UE - 01.png",
-            caption: "Legenda02"
+            caption: "Passo 5 - Retire o lacre da Mídia de Resultado (M.R.)"
+        },
+        {
+            src: "05 - RED - 21.png",
+            caption: "Passo 6 - Destrave e Abra a tampa do compartimento (M.R.)."
         },
         {
             src: "05 - RED - 01.png",
-            caption: "Legenda03"
+            caption: "Passo 7 - Retire a Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 02.png",
-            caption: "Legenda04"
+            caption: "Passo 8 - Insira a Mídia RED no slot da Mídia de Resultado."
         },
         {
             src: "01 - REINICIAR - 02.png",
-            caption: "Legenda05"
+            caption: "Passo 9 - Ligue a urna pressionando o botão verde."
         },
         {
             src: "01 - REINICIAR - 03.png",
-            caption: "Legenda06"
+            caption: "Passo 10 - Aguarde o sistema iniciar."
         },
         {
             src: "05 - RED - 03.png",
-            caption: "Legenda07"
+            caption: "Passo 11 - Digite o código de acesso ao RECUPERADOR DE DADOS."
         },
         {
             src: "05 - RED - 19.png",
-            caption: "Legenda08"
+            caption: "Passo 13, 14 e 15 - Tela para **NÃO ENCERRADA**, COM VOTAÇÃO MISTA (Sessão Eletrônica e Manual com cédulas)."
         },
         {
             src: "05 - RED - 05.png",
-            caption: "Legenda09"
+            caption: "Passo 16 - Imprimir a 1ª via do Boletim de Urna (B.U.)."
         },
         {
             src: "05 - RED - 10.png",
-            caption: "Legenda10"
+            caption: "Passo 17 e 18 - Confirmação, se a impressão do Boletim de Urna (B.U.) está correta."
         },
         {
             src: "05 - RED - 06.png",
-            caption: "Legenda11"
+            caption: "Passo 19 - Imprimir a 2ª via do Boletim de Urna (B.U.)."
         },
         {
             src: "05 - RED - 07.png",
-            caption: "Legenda12"
+            caption: "Passo 19 - 1ª via do Boletim de Urna de Justificativa (B.U.J.)."
         },
         {
             src: "05 - RED - 08.png",
-            caption: "Legenda13"
+            caption: "Passo 19 - 1ª via do Boletim de Identificação de Mesários (B.I.M.)."
         },
         {
             src: "05 - RED - 09.png",
-            caption: "Legenda14"
+            caption: "Passo 20 - Solicitação de Mídia de Resultado (M.R.) válida para gravar os dados"
         },
         {
             src: "05 - RED - 11.png",
-            caption: "Legenda15"
+            caption: "Passo 21 - Retirando a Mídia RED."
         },
         {
             src: "05 - RED - 12.png",
-            caption: "Legenda16"
+            caption: "Passo 22 - Insirindo a Mídia de Resultado (M.R.) específica."
         },
         {
             src: "05 - RED - 13.png",
-            caption: "Legenda17"
+            caption: "Passo 23, 24 e 25 - Confirmação de gravação bem-sucedida."
         },
         {
             src: "05 - RED - 14.png",
-            caption: "Legenda18"
+            caption: "Passo 26 - Retire a Mídia de Resultado (M.R.) específica."
         },
         {
             src: "05 - RED - 15.png",
-            caption: "Legenda19"
+            caption: "Passo 27, 28 e 29 - Cópias adicionais do Boletim de Urna (B.U.)."
         },
         {
             src: "05 - RED - 16.png",
-            caption: "Legenda20"
+            caption: "Passo 30 - Mensagem para Lacra a tampa do compartimento da Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 17.png",
-            caption: "Legenda21"
+            caption: "Passo 31, 32 e 33 - Fixando a tampa e o lacre do compartimento da Mídia de Resultado (M.R.)."
         },
         {
             src: "05 - RED - 18.png",
-            caption: "Legenda22"
+            caption: "Passo 34 e 35 - Mensagem de Operação realizada com sucesso. Desligue a urna."
         },
         {
             src: "01 - REINICIAR - 01.png",
-            caption: "Legenda23"
+            caption: "Passo 36 - Desligue a urna eletrônica pressionando o botão vermelho."
         }
             ],
     video: "videos/05-red-encerrada.mp4",
