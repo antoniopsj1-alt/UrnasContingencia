@@ -561,147 +561,147 @@ images: [
     images: [
         {
             src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
+            caption: "Passo 2 - Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 01.png",
-            caption: "Legenda02"
+            caption: "Passo 3 - Retire os parafusos do Módulo Impressor."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 02.png",
-            caption: "Legenda03"
+            caption: "Passo 4 - Desacople o Módulo Impressor da urna eletrônica."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 03.png",
-            caption: "Legenda04"
+            caption: "Passo 5 e 6 - Observe diâmetro do papel restante na bobina."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 12.png",
-            caption: "Legenda05"
+            caption: "Passo 7 - Reconecte o Módulo Impressor na urna eletrônica"
         },
         {
             src: "06 - MODULO_IMPRESSOR - 13.png",
-            caption: "Legenda06"
+            caption: "Passo 8 - Parafuse novamente o Módulo Impressor na urna eletrônica."
         },
         {
             src: "01 - REINICIAR - 02.png",
-            caption: "Legenda07"
+            caption: "Passo 9 - Ligue a Urna Eletrônica (U.E.) clicando no botão verde."
         }
             ],
     video: "videos/08-conferir-bobina.mp4",
-    instructions: ["Ferramenta necessária: chave Phillips.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Com a chave Phillips, retire o parafuso que fixa o módulo impressor na urna eletrônica.","Puxe suavemente o módulo impressor para desacoplar da urna eletrônica.","Observe pela fresta lateral do módulo impressor o diâmetro do papel restante na bobina.","Verifique visualmente se há quantidade suficiente de papel para a operação ou se será necessário trocar a bobina.","Se não for necessário substituir a bobina de papel, reconecte o módulo impressor na urna eletrônica, garantindo que esteja encaixado corretamente.","Parafuse novamente o módulo na urna usando a chave Phillips.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Se a quantidade de papel for insuficiente, prossiga com a troca da bobina de papel."]
+    instructions: ["Ferramenta necessária: chave Phillips.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Com a chave Phillips, retire o parafuso que fixa o Módulo Impressor na urna eletrônica.","Puxe suavemente o Módulo Impressor para desacoplar da urna eletrônica.","Observe pela fresta lateral do módulo impressor o diâmetro do papel restante na bobina.","Verifique visualmente se há quantidade suficiente de papel para a operação ou se será necessário trocar a bobina.","Se não for necessário substituir a bobina de papel, reconecte o Módulo Impressor na urna eletrônica, garantindo que esteja encaixado corretamente.","Parafuse novamente o módulo na urna usando a chave Phillips.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Se a quantidade de papel for insuficiente, prossiga com a troca da bobina de papel."]
   },
   "Como fazer a TROCA DA BOBINA DE PAPEL.": {
     images: [
         {
             src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
+            caption: "Passo 2 - Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 01.png",
-            caption: "Legenda02"
+            caption: "Passo 3 - Retire os parafusos do Módulo Impressor."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 02.png",
-            caption: "Legenda03"
+            caption: "Passo 4 - Desacople o Módulo Impressor da urna eletrônica."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 03.png",
-            caption: "Legenda04"
+            caption: "Passo 5 - Observe diâmetro do papel restante na bobina."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 04.png",
-            caption: "Legenda05"
+            caption: "Passo 6 - Módulo Impressor com saída de papel voltada para cima."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 05.png",
-            caption: "Legenda06"
+            caption: "Passo 7 - Abrindo a tampa do Módulo Impressor."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 06.png",
-            caption: "Legenda07"
+            caption: "Passo 8 - Mova a alavanca amarela da portinhola."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 07.png",
-            caption: "Legenda08"
+            caption: "Passo 8 - Destravando a portinhola que segura o papel."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 08.png",
-            caption: "Legenda09"
+            caption: "Passo 9 - Retire a bobina de papel usada."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 09.png",
-            caption: "Legenda10"
+            caption: "Passo 10 e 11 - Colocando nova bobina no suporte do Módulo Impressor, na posição correta."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 10.png",
-            caption: "Legenda11"
+            caption: "Passo 12 - Feche a portinhola para travar a nova bobina no lugar."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 11.png",
-            caption: "Legenda12"
+            caption: "Passo 13 - Feche a tampa do Módulo Impressor pressionando até travar."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 12.png",
-            caption: "Legenda13"
+            caption: "Passo 14 - Reconecte o Módulo Impressor na urna eletrônica."
         },
         {
             src: "06 - MODULO_IMPRESSOR - 13.png",
-            caption: "Legenda14"
+            caption: "Passo 15 - Parafuse novamente o Módulo Impressor na urna eletrônica."
         },
         {
             src: "01 - REINICIAR - 02.png",
-            caption: "Legenda15"
+            caption: "Passo 16 - Ligue a Urna Eletrônica (U.E.) clicando no botão verde."
         }
             ],
     video: "videos/08-conferir-bobina.mp4",
-    instructions: ["Ferramentas necessárias: chave Phillips.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Com a chave Phillips, retire o parafuso que fixa o módulo impressor na urna eletrônica.","Puxe suavemente o módulo impressor para desacoplar da Urna Eletrônica.","Coloque o módulo deitado com a saída de papel voltada para cima.","Aperte a trava e abra a tampa do módulo impressor, deixando a bobina de papel exposta.","Mova a alavanca amarela até destravar a portinhola que segura o papel.","Retire a bobina de papel usada.","Pegue uma nova bobina de papel e coloque no suporte, na posição correta (normalmente, o papel deve desenrolar no sentido anti-horário).","Puxe a ponta do papel até sair da bobina e do módulo.","Feche a portinhola para travar a nova bobina no lugar.","Feche a tampa do módulo pressionando até ouvir o som de travamento.","Com o módulo ainda deitado, puxe a ponta do papel para fora do módulo, garantindo que esteja bem alinhada.","Recoloque o módulo impressor na urna eletrônica, encaixando corretamente.","Parafuse novamente o módulo na urna usando a chave Phillips.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Faça testes de impressão para garantir que o papel está sendo alimentado corretamente."]
+    instructions: ["Ferramentas necessárias: chave Phillips.", "Desligue a Urna Eletrônica (U.E.) clicando no botão vermelho localizado na parte de trás da urna.", "Com a chave Phillips, retire o parafuso que fixa o Módulo Impressor na urna eletrônica.","Puxe suavemente o Módulo Impressor para desacoplar da Urna Eletrônica.","Observe pela fresta lateral do Módulo Impressor o diâmetro do papel restante na bobina.","Coloque o Módulo Impressor deitado com a saída de papel voltada para cima.","Aperte a trava e abra a tampa do Módulo Impressor, deixando a bobina de papel exposta.","Mova a alavanca amarela até destravar a portinhola que segura o papel.","Retire a bobina de papel usada.","Pegue uma nova bobina de papel e coloque no suporte, na posição correta (normalmente, o papel deve desenrolar no sentido anti-horário).","Puxe a ponta do papel até sair da bobina e do Módulo Impressor.","Feche a portinhola para travar a nova bobina no lugar.","Feche a tampa do Módulo Impressor pressionando até ouvir o som de travamento.","Recoloque o Módulo Impressor na urna eletrônica, encaixando corretamente.","Parafuse novamente o Módulo na urna usando a chave Phillips.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna.","Faça testes de impressão para garantir que o papel está sendo alimentado corretamente."]
   },
   "Como fazer a SUBSTITUIÇÃO DA BOBINA DE PAPEL.": {
     images: [
         {
             src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
+            caption: "Passo 1 - Desligue a Urna Eletrônica (U.E.)."
         },
         {
             src: "07 - Troca_Bobina - 01.png",
-            caption: "Legenda02"
+            caption: "Passo 3 - Retirando o parafuso de fixação do Módulo Impressor."
         },
         {
             src: "07 - Troca_Bobina - 02.png",
-            caption: "Legenda03"
+            caption: "Passo 4 - Retirando o Módulo Impressor."
         },
         {
             src: "07 - Troca_Bobina - 03.png",
-            caption: "Legenda04"
+            caption: "Passo 5 - Desapertando o parafuso borboleta (manopla)."
         },
         {
             src: "07 - Troca_Bobina - 04.png",
-            caption: "Legenda05"
+            caption: "Passo 6 - Retirando a tampa lateral."
         },
         {
             src: "07 - Troca_Bobina - 05.png",
-            caption: "Legenda06"
+            caption: "Passo 7 e 8 - Retirando a bobina de papel e colocando a nova bobina de papel tracionando o papel."
         },
         {
             src: "07 - Troca_Bobina - 06.png",
-            caption: "Legenda07"
+            caption: "Passo 9 - Verificando a posição da bobina de papel."
         },
         {
             src: "07 - Troca_Bobina - 07.png",
-            caption: "Legenda08"
+            caption: "Passo 10 - Recolocando a tampa lateral do Módulo Impressor."
         },
         {
             src: "07 - Troca_Bobina - 08.png",
-            caption: "Legenda09"
+            caption: "Passo 11 e 12 - Recolocandoo Módulo Impressor de volta ao terminal do eleitor e apertando o parafuso de fixação."
         },
         {
             src: "01 - REINICIAR - 02.png",
-            caption: "Legenda10"
+            caption: "Passo 13 - Ligue a Urna Eletrônica (U.E.)."
         }
             ],
     video: "videos/09-troca-bobina.mp4",
-    instructions: ["Desligue a urna na chave;", "Aguarde a tela do terminal do eleitor se apagar, sob pena de danos à urna e/ou ao módulo;","Desaperte totalmente o parafuso de fixação do módulo impressor.", "Retire o módulo impressor, puxando firmemente pelas laterais;", "Desaperte o parafuso borboleta (manopla) no sentido anti-horário;", "Retire a tampa lateral;", "Retire a bobina e coloque a nova;", "Gire a engrenagem maior para tracionar o papel;", "Recoloque a tampa lateral, tomando cuidado para não apertar demasiadamente o parafuso corboleta;","Recoloque o módulo de volta ao terminal do eleitor;","Pressione firmemente para assegurar o encaixe, e aperte o parafuso.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna."]
+    instructions: ["Desligue a urna na chave;", "Aguarde a tela do terminal do eleitor se apagar, sob pena de danos à urna e/ou ao módulo;","Desaperte totalmente o parafuso de fixação do Módulo Impressor.", "Retire o Módulo Impressor, puxando firmemente pelas laterais;", "Desaperte o parafuso borboleta (manopla) no sentido anti-horário;", "Retire a tampa lateral;", "Retire a bobina e coloque a nova;", "Gire a engrenagem maior para tracionar o papel;","Verifique a correta posição da bobina de papel.", "Recoloque a tampa lateral, tomando cuidado para não apertar demasiadamente o parafuso corboleta;","Recoloque o Módulo Impressor de volta ao terminal do eleitor;","Pressione firmemente para assegurar o encaixe, e aperte o parafuso.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna."]
   },
   "Como proceder com a INSTALAÇÃO DA URNA ELETRÔNICA (U.E.)": {
     images: [
