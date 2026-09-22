@@ -83,10 +83,14 @@ tutorials:[
 {
 id:"INICIAIS",
 icon:"icone-08-procedimentos-iniciais.png",
-name:"08 - PROCEDIMENTOS INICIAIS",
-description:"Procedimentos iniciais de instalação da Urna Eletrônica (U.E.).",
+name:"08 - PREPARAÇÃO DA URNA ELETRÔNICA PARA VOTAÇÃO.",
+description:"Instruções de preparação da Urna Eletrônica (U.E.) para a votação.",
 tutorials:[
-"Como proceder com a INSTALAÇÃO DA URNA ELETRÔNICA (U.E.)",
+"Parte 1 – Componentes da Urna Eletrônica (U.E.).",
+"Parte 2 – Preparação Oficial da Urna Eletrônica (U.E.) antes da Eleição.",
+"Parte 3 – Ligando e Testando a Urna no Dia da Votação.",
+"Parte 4 – Iniciando a Votação.",
+"Parte 5 – Ciclo de Votação no Dia da Eleição."
 ]
 }
 
@@ -703,7 +707,110 @@ images: [
     video: "videos/09-troca-bobina.mp4",
     instructions: ["Desligue a urna na chave;", "Aguarde a tela do terminal do eleitor se apagar, sob pena de danos à urna e/ou ao módulo;","Desaperte totalmente o parafuso de fixação do Módulo Impressor.", "Retire o Módulo Impressor, puxando firmemente pelas laterais;", "Desaperte o parafuso borboleta (manopla) no sentido anti-horário;", "Retire a tampa lateral;", "Retire a bobina e coloque a nova;", "Gire a engrenagem maior para tracionar o papel;","Verifique a correta posição da bobina de papel.", "Recoloque a tampa lateral, tomando cuidado para não apertar demasiadamente o parafuso corboleta;","Recoloque o Módulo Impressor de volta ao terminal do eleitor;","Pressione firmemente para assegurar o encaixe, e aperte o parafuso.","Ligue a Urna Eletrônica (U.E.) clicando no botão verde na parte de trás da urna."]
   },
-  "Como proceder com a INSTALAÇÃO DA URNA ELETRÔNICA (U.E.)": {
+  "Parte 1 – Componentes da Urna Eletrônica (U.E.).": {
+    images: [
+        {
+            src: "08.01 - PREPARAÇÃO.png",
+            caption: "Passo 1 - U.E. Modelo: 2022."
+        },
+        {
+            src: "08.02 - PREPARAÇÃO.png",
+            caption: "Passo 2 - U.E. Modelo: 2020."
+        },
+        {
+            src: "08.03 - PREPARAÇÃO.png",
+            caption: "Passo 3 - U.E. Modelo: 2015 e 2013."
+        },
+        {
+            src: "08.04 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Terminal do Eleitor (T.E.) e Terminal do Mésario (T.M.) modelo U.E. 2020 e 2022."
+        },
+        {
+            src: "08.09 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Terminal do Mésario (T.M.) modelo U.E. 2020 e 2022."
+        },
+        {
+            src: "08.05 - PREPARAÇÃO.png",
+            caption: "Passo 5 - Traseira do Terminal do Eleitor (T.E.) modelo U.E. 2020 e 2022."
+        },
+        {
+            src: "08.06 - PREPARAÇÃO.png",
+            caption: "Passo 6 - Terminal do Eleitor (T.E.) e Terminal do Mésario (T.M.) modelo U.E. 2013 e 2015."
+        },
+        {
+            src: "08.08 - PREPARAÇÃO.png",
+            caption: "Passo 6 - Terminal do Mésario (T.M.) modelo U.E. 2013 e 2015."
+        },
+        {
+            src: "08.07 - PREPARAÇÃO.png",
+            caption: "Passo 7 - Traseira do Terminal do Eleitor (T.E.) modelo U.E. 2013 e 2015."
+        },
+        {
+            src: "08.10 - PREPARAÇÃO.png",
+            caption: "Passo 8 - Bateria Externa."
+        },
+        {
+            src: "08.11 - PREPARAÇÃO.png",
+            caption: "Passo 9 - Lacres."
+        },
+        {
+            src: "08.12 - PREPARAÇÃO.png",
+            caption: "Passo 10 - Mídia de Carga."
+        },
+        {
+            src: "08.13 - PREPARAÇÃO.png",
+            caption: "Passo 10 - Mídia de Votação (M.V.)."
+        },
+        {
+            src: "08.14 - PREPARAÇÃO.png",
+            caption: "Passo 10 - Mídia de Resultado (M.R.)."
+        },
+        {
+            src: "08.15 - PREPARAÇÃO.png",
+            caption: "Passo 10 - Mídia do Recuperador de Dados (RED)."
+        },
+        {
+            src: "08.16 - PREPARAÇÃO.png",
+            caption: "Passo 11 - Cabina de Votação."
+        },
+        ],
+    video: "videos/11-instalacao-ue.mp4",
+    instructions: ["O modelo mais recente da urna eletrônica, UE2022 com tela touch screen, fabricado em 2023.", "Modelo de Urna Eletrônica 2020.","Modelo de Urna Eletrônica 2015 e 2013.","Urnas modelo 2020 e 2022 são idênticas:<br><ul style='list-style-type: disc;'><li><strong>Terminal do Mesário (T.M.):</strong> com tela totalmente gráfica, sensível ao toque (touch screen);</li><li><strong>Terminal do Eleitor (T.E.)</strong>: com teclado numérico mais moderno que possui teclas com duplo fator de contato para detecção de erros. Utilização de mídia de aplicação (MA-pen drive).</li></ul>","Os principais componentes localizados na parte traseira do terminal do eleitor das urnas eletrônicas dos modelos 2020 e 2022 são:<br><ul style='list-style-type: disc;'><li>    🖨️Impressora térmica (Módulo Impressor):</strong> Responsável por emitir os relatórios oficiais, como a Zerésima (antes da votação) e o Boletim de Urna (ao final), além de contar com a saída de papel (bobina);</li><li><strong>⚙️Compartimento de mídias(M.V. e M.R.):</strong> Compartimento protegido por tampa e lacre para a Mídia de Votação (sistema) e a Mídia de Resultado (onde ficam gravados os votos de forma criptografada).;</li><li><strong>Chave liga/desliga:</strong> Interruptor para ligar ou desligar o equipamento;</li><li><strong>📊Indicadores LED de bateria e energia:</strong> Luzes que indicam o status do funcionamento elétrico e o nível da bateria interna (com alerta visual para carga crítica);</li><li><strong>🔌Conector de energia / Cabo de alimentação:</strong> Ponto de saída ou entrada do cabo de energia que liga a urna à rede elétrica.</li></ul>",
+        "Urnas modelo 2013 e 2015 são praticamente idênticas:<br><ul style='list-style-type: disc;'><li><strong>Terminal do Mesário (T.M.):</strong> com Teclado numérico e Tela de cristal líquido;</li><li><strong>Terminal do Eleitor (T.E.)</strong>: com Teclado numérico e Utilização de Flashes Cards – FC e Memória de Resultado - MR.</li></ul>","Os principais componentes localizados na parte traseira do terminal do eleitor das urnas eletrônicas dos modelos 2013 e 2015 são:<br><ul style='list-style-type: disc;'><li><strong>🖨️Módulo Impressor Integrado:</strong> Responsável por emitir os relatórios oficiais, como a Zerésima (antes da votação) e o Boletim de Urna (ao final), além de contar com a saída de papel (bobina);</li><li><strong>⚙️Compartimento de mídias(M.V. e M.R.):</strong> Compartimento protegido por tampa e lacre para a Mídia Flash Card (FC) (sistema) e a Mídia de Resultado (onde ficam gravados os votos de forma criptografada).;</li><li><strong>Chave liga/desliga:</strong> Interruptor para ligar ou desligar o equipamento;</li><li><strong>📊Indicadores LED de bateria e energia:</strong> Luzes que indicam o status do funcionamento elétrico e o nível da bateria interna (com alerta visual para carga crítica);</li><li><strong>🔌Conector de energia / Cabo de alimentação:</strong> Ponto de saída ou entrada do cabo de energia que liga a urna à rede elétrica.</li></ul>","<strong>A Bateria Externa</strong> da urna eletrônica é uma fonte secundária de energia de emergência, utilizada pela Justiça Eleitoral para garantir que a votação continue ocorrendo normalmente mesmo se houver queda ou ausência total de eletricidade na seção eleitoral.<br>A bateria interna da Urna Eletrônica tem duração de até 10h e é acionada quando há falta de energia elétrica no local de votação.",
+    "<strong>Lacres - </strong>Quando a urna está pronta para a votação, ela recebe lacres de segurança em material autoadesivo fabricados pela Casa da Moeda, que evidenciam qualquer tentativa de violação. Os lacres são colados em vários pontos da máquina:<ul style='list-style-type: disc;'><li>Tampa do compartimento da mídia de votação;</li><li>Tampa do compartimento da mídia de resultado;</li><li>Tampa do compartimento do conector USB;</li><li>Teclado alfanumérico;</li><li>Gabinete do terminal do eleitor;</li><li>Compartimento do conector do terminal do mesário.</li></ul>","<strong>Mídias - </strong>são dispositivos de armazenamento usado para gravar, guardar e transportar dados e programas. Na eleição são utilizadas as seguintes mídias:<ul style='list-style-type: disc;'><li><strong>Mídia de Carga:</strong> Guarda os sistemas operacionais, aplicativos da eleição e os dados da seção (como a lista de eleitores aptos e os nomes e fotos dos candidatos).</li><li><strong>Mídia de Votação:(M.V.):</strong> Armazena os votos digitados pelos eleitores durante o dia da votação de forma isolada e aleatória.</li><li><strong>Mídia de Resultado (M.R.):</strong> Grava o resultado final da votação de cada seção eleitoral após o encerramento, sendo retirada para enviar os dados à central de totalização.</li><li><strong>Mídia do Recuperador de Dados (RED):</strong> é um dispositivo de contingência da Justiça Eleitoral utilizado quando ocorre algum problema grave com a urna eletrônica ou com as mídias originais durante a eleição. Exemplo:<br>a) Urna não encerrada (votação eletrônica ou mista);<br>b) Urna encerrada mas sem o Boletim de Urna (B.U.);<br>c) Urna encerrada mas sem a Mídia de Resultado (M.R.);<br>d) Entre outros...</li><li><strong>Mídia de Contingência (M.V.):</strong> é um dispositivo usado em casos de substituição de urna eletrônica ou falhas durante a votação.</li></ul>","<strong>Cabina de Votação - </strong> A cabina de votação garante o sigilo do voto na seção eleitoral. As cabinas para os modelos de urnas 2013 e 2015 são diferentes das cabinas utilizadas para os modelos 2020 e 2022.",
+"<strong>O Microterminal</strong> (oficialmente chamado de <strong>Terminal do Mesário)</strong> é o dispositivo físico operado pela mesa receptora — sob a supervisão do presidente da seção eleitoral — que serve para controlar e gerenciar o fluxo da votação, além de habilitar cada eleitor a exercer o seu direito ao voto. As principais funções e características do microterminal incluem:<ul style='list-style-type: disc;'><li>Identificação e Liberação (Biometria);</li><li>Monitoramento da Cabina;<ul><li>• <span style='color: green;'><strong>VERDE: LIBERADO</strong></span> - para identificação de eleitor;</li><li>• <span style='color: orange;'><strong>LARANJA: AGUARDE</strong></span> - eleitor está votando na cabina;</li><li>• <span style='color: red;'><strong>VERMELHO: BATERIA INTERNA</strong></span> em uso.</li></ul><li>Procedimento de Zerésima, é o relatório emitido antes do início da votação (geralmente por volta das 7h da manhã).</li><li>Procedimento de Boletim de Urna (B.U.), é o relatório impresso imediatamente após o encerramento da votação (a partir das 17h).</li></li></ul>"]
+  },
+  "Parte 2 – Preparação Oficial da Urna Eletrônica (U.E.) antes da Eleição": {
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        }
+        ],
+    video: "videos/11-instalacao-ue.mp4",
+    instructions: ["Insira aqui a instrução 1 para instalar a U.E.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+  },
+  "Parte 3 – Ligando e Testando a Urna no Dia da Votação.": {
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        }
+        ],
+    video: "videos/11-instalacao-ue.mp4",
+    instructions: ["Insira aqui a instrução 1 para instalar a U.E.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+  },
+  "Parte 4 – Iniciando a Votação.": {
+    images: [
+        {
+            src: "01 - REINICIAR - 01.png",
+            caption: "Legenda01"
+        }
+        ],
+    video: "videos/11-instalacao-ue.mp4",
+    instructions: ["Insira aqui a instrução 1 para instalar a U.E.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+  },
+  "Parte 5 – Ciclo de Votação no Dia da Eleição.": {
     images: [
         {
             src: "01 - REINICIAR - 01.png",
