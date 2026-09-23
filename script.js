@@ -780,15 +780,61 @@ images: [
     "<strong>Lacres - </strong>Quando a urna está pronta para a votação, ela recebe lacres de segurança em material autoadesivo fabricados pela Casa da Moeda, que evidenciam qualquer tentativa de violação. Os lacres são colados em vários pontos da máquina:<ul style='list-style-type: disc;'><li>Tampa do compartimento da mídia de votação;</li><li>Tampa do compartimento da mídia de resultado;</li><li>Tampa do compartimento do conector USB;</li><li>Teclado alfanumérico;</li><li>Gabinete do terminal do eleitor;</li><li>Compartimento do conector do terminal do mesário.</li></ul>","<strong>Mídias - </strong>são dispositivos de armazenamento usado para gravar, guardar e transportar dados e programas. Na eleição são utilizadas as seguintes mídias:<ul style='list-style-type: disc;'><li><strong>Mídia de Carga:</strong> Guarda os sistemas operacionais, aplicativos da eleição e os dados da seção (como a lista de eleitores aptos e os nomes e fotos dos candidatos).</li><li><strong>Mídia de Votação:(M.V.):</strong> Armazena os votos digitados pelos eleitores durante o dia da votação de forma isolada e aleatória.</li><li><strong>Mídia de Resultado (M.R.):</strong> Grava o resultado final da votação de cada seção eleitoral após o encerramento, sendo retirada para enviar os dados à central de totalização.</li><li><strong>Mídia do Recuperador de Dados (RED):</strong> é um dispositivo de contingência da Justiça Eleitoral utilizado quando ocorre algum problema grave com a urna eletrônica ou com as mídias originais durante a eleição. Exemplo:<br>a) Urna não encerrada (votação eletrônica ou mista);<br>b) Urna encerrada mas sem o Boletim de Urna (B.U.);<br>c) Urna encerrada mas sem a Mídia de Resultado (M.R.);<br>d) Entre outros...</li><li><strong>Mídia de Contingência (M.V.):</strong> é um dispositivo usado em casos de substituição de urna eletrônica ou falhas durante a votação.</li></ul>","<strong>Cabina de Votação - </strong> A cabina de votação garante o sigilo do voto na seção eleitoral. As cabinas para os modelos de urnas 2013 e 2015 são diferentes das cabinas utilizadas para os modelos 2020 e 2022.",
 "<strong>O Microterminal</strong> (oficialmente chamado de <strong>Terminal do Mesário)</strong> é o dispositivo físico operado pela mesa receptora — sob a supervisão do presidente da seção eleitoral — que serve para controlar e gerenciar o fluxo da votação, além de habilitar cada eleitor a exercer o seu direito ao voto. As principais funções e características do microterminal incluem:<ul style='list-style-type: disc;'><li>Identificação e Liberação (Biometria);</li><li>Monitoramento da Cabina;<ul><li>• <span style='color: green;'><strong>VERDE: LIBERADO</strong></span> - para identificação de eleitor;</li><li>• <span style='color: orange;'><strong>LARANJA: AGUARDE</strong></span> - eleitor está votando na cabina;</li><li>• <span style='color: red;'><strong>VERMELHO: BATERIA INTERNA</strong></span> em uso.</li></ul><li>Procedimento de Zerésima, é o relatório emitido antes do início da votação (geralmente por volta das 7h da manhã).</li><li>Procedimento de Boletim de Urna (B.U.), é o relatório impresso imediatamente após o encerramento da votação (a partir das 17h).</li></li></ul>"]
   },
-  "Parte 2 – Preparação Oficial da Urna Eletrônica (U.E.) antes da Eleição": {
+  "Parte 2 – Preparação Oficial da Urna Eletrônica (U.E.) antes da Eleição.": {
     images: [
         {
-            src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
+            src: "08.17 - PREPARAÇÃO.png",
+            caption: "Passo 2 - Fluxo oficial de preparação da urna."
+        },
+        {
+            src: "08.18 - PREPARAÇÃO.png",
+            caption: "Passo 2 - Fluxo oficial de preparação da urna."
+        },
+        {
+            src: "08.19 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Eleitor - Lacres Traseiro (UE2020 e UE2022)."
+        },
+        {
+            src: "08.20 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Eleitor - Lacres Lateral Esquerda (UE2020 e UE2022)."
+        },
+        {
+            src: "08.21 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Eleitor - Lacres Lateral Direita (UE2020 e UE2022)."
+        },
+        {
+            src: "08.22 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Mesário - Lacres Traseiro (UE2020 e UE2022)."
+        },
+        {
+            src: "08.23 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Mesário - Lacres Lateral Esquerda (UE2020 e UE2022)."
+        },
+        {
+            src: "08.24 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Eleitor - Lacres Traseiro (UE2013 e UE2015)."
+        },
+        {
+            src: "08.25 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Eleitor - Lacres Lateral Direito (UE2013 e UE2015)."
+        },
+        {
+            src: "08.26 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Mesário - Lacres Traseiro (UE2013 e UE2015)."
+        },
+        {
+            src: "08.28 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Mesário - Lacres Lateral Esquerdo (UE2013 e UE2015)."
+        },
+        {
+            src: "08.27 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Terminal do Mesário - Lacres Lateral Direito (UE2013 e UE2015)."
         }
-        ],
-    video: "videos/11-instalacao-ue.mp4",
-    instructions: ["Insira aqui a instrução 1 para instalar a U.E.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+            ],
+    video: "videos/01-reiniciar-urna.mp4",
+    instructions: ["Participe da cerimônia pública de preparação:<ul style='list-style-type: disc;'><li><strong>Cerimônia Pública:</strong> A preparação das urnas é realizada em cerimônia pública, com presença de autoridades e da sociedade em geral.</li><li><strong>Auditoria do Sistema:</strong> Nessa cerimônia é realizado o processo de verificação/auditoria do sistema e dos dados.</li><li><strong>Lacração:</strong> É feita a lacração física dos compartimentos da urna eletrônica.</li><li><strong>ATA PÚBLICA:</strong> Todo o processo é registrado em ATA PÚBLICA.</li></ul>", 
+        "Fluxo oficial de preparação da urna:<ul style='list-style-type: disc;'><li><strong>Inseminação dos dados da eleição com a MA, definição de data e hora;</strong></li><li><strong>Confirmação da seção ou se é urna de contingência (0000);</strong></li><li><strong>Confirmação dos dados do Extrato de Carga;</strong></li><li><strong>Teste do operador (autoteste);</strong></li><li><strong>Lacre físico da UE;</strong></li><li><strong>Embalagem e identificação física.</strong></li></ul>","<strong>Lacres - </strong>Quando a urna está pronta para a votação, ela recebe lacres de segurança em material autoadesivo fabricados pela Casa da Moeda, que evidenciam qualquer tentativa de violação. Os lacres são colados em vários pontos da máquina:<ul style='list-style-type: disc;'><li>Tampa do compartimento da mídia de votação;</li><li>Tampa do compartimento da mídia de resultado;</li><li>Tampa do compartimento do conector USB;</li><li>Teclado alfanumérico;</li><li>Gabinete do terminal do eleitor;</li><li>Compartimento do conector do terminal do mesário.</li></ul>","Depois do autoteste, a urna recebe lacres físicos (fitas) nos compartimentos.","Em seguida, a urna é embalada e identificada para ser encaminhada à seção eleitoral."
+    ]
   },
   "Parte 3 – Ligando e Testando a Urna no Dia da Votação.": {
     images: [
@@ -798,7 +844,7 @@ images: [
         }
         ],
     video: "videos/11-instalacao-ue.mp4",
-    instructions: ["Insira aqui a instrução 1 para instalar a U.E.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+    instructions: ["", "", ""]
   },
   "Parte 4 – Iniciando a Votação.": {
     images: [
@@ -808,7 +854,7 @@ images: [
         }
         ],
     video: "videos/11-instalacao-ue.mp4",
-    instructions: ["Insira aqui a instrução 1 para instalar a U.E.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+    instructions: ["", "", ""]
   },
   "Parte 5 – Ciclo de Votação no Dia da Eleição.": {
     images: [
@@ -818,7 +864,7 @@ images: [
         }
         ],
     video: "videos/11-instalacao-ue.mp4",
-    instructions: ["Insira aqui a instrução 1 para instalar a U.E.", "Insira aqui a instrução 2.", "Insira aqui a instrução 3."]
+    instructions: ["", "", ""]
   }
 };
 
