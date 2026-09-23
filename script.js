@@ -839,32 +839,174 @@ images: [
   "Parte 3 – Ligando e Testando a Urna no Dia da Votação.": {
     images: [
         {
-            src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
-        }
+            src: "08.29 - PREPARAÇÃO.png",
+            caption: "Passo 1 - Tela da Urna Eletrônica de Contingência vazia e sem votos."
+        },
+        {
+            src: "08.30 - PREPARAÇÃO.png",
+            caption: "Passo 2 - Tela de Sincronismo de Contingência."
+        },
+        {
+            src: "08.31 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Tela de Reinicie o equipamento."
+        },
+        {
+            src: "08.32 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Reiniciando a urna."
+        },
+        {
+            src: "08.33 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Tela do logotipo do fabricante."
+        },
+        {
+            src: "08.34 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Mensagens de identificação do modelo da urna (UE2020)."
+        },
+        {
+            src: "08.35 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Tela de carregamento do sistema (Justiça Eleitoral)."
+        },
+        {
+            src: "08.36 - PREPARAÇÃO.png",
+            caption: "Passo 5 - Tela de Preparação da impressora.."
+        },
+        {
+            src: "08.37 - PREPARAÇÃO.png",
+            caption: "Passo 6 - Tela de Imprimindo extrato da contingência."
+        },
+        {
+            src: "08.38 - PREPARAÇÃO.png",
+            caption: "Passo 7 - Extrato da contingência meramente ilustrativo."
+        },
+        {
+            src: "08.39 - PREPARAÇÃO.png",
+            caption: "Passo 8 - Tela do Modelo da urna detectado: UE2020"
+        },
+        {
+            src: "08.40 - PREPARAÇÃO.png",
+            caption: "Passo 9 - Foi detectada uma carga de Votação."
+        },
+        {
+            src: "08.41 - PREPARAÇÃO.png",
+            caption: "Passo 10 - Verificando a integridade dos softwares instalados. Aguarde."
+        },
+        {
+            src: "08.42 - PREPARAÇÃO.png",
+            caption: "Passo 11 - Urna carregada para o turno da eleição."
+        },
+        {
+            src: "08.43 - PREPARAÇÃO.png",
+            caption: "Passo 12 - Validando a urna para executar o aplicativo."
+        },
+        {
+            src: "08.44 - PREPARAÇÃO.png",
+            caption: "Passo 13 - A urna está pronta para retomar a votação. Reinicie o equipamento.."
+        },
+        {
+            src: "08.45 - PREPARAÇÃO.png",
+            caption: "Passo 14 - Por favor, teste o teclado."
+        },
+        {
+            src: "08.46 - PREPARAÇÃO.png",
+            caption: "Passo 15 - Teste de teclado — pressione a tecla destacada"
+        },
         ],
     video: "videos/11-instalacao-ue.mp4",
-    instructions: ["", "", ""]
+    instructions: ["Confira os dados ao ligar uma urna de contingência:<ul style='list-style-type: disc;'><li><strong>Ao ligar uma urna de contingência (reserva),</strong> a tela mostra se ela está vazia e sem votos;</li><li><strong>Confira os dados da mídia de votação exibidos:</strong> município, zona, seção, comparecimento e último voto registrado;</li><li>Tecle <span style='color: white;'><strong>BRANCO</strong></span> para imprimir o extrato, <span style='color: red;'><strong>CORRIGE</strong></span> para cancelar, ou <span style='color: green;'><strong>CONFIRMA</strong></span> para continuar a contingência de urna.</li></ul>","Aguarde o sincronismo de contingência. A urna exibe a mensagem informando que o sincronismo de contingência foi efetuado com sucesso.","Reinicie o equipamento:<ul style='list-style-type: disc;'><li>A tela informa que a urna está pronta para retomar a votação;</li><li>Tecle <span style='color: green;'><strong>CONFIRMA</span>/Reiniciar</strong> para identificar o próximo eleitor.</li></ul>","Aguarde enquanto a urna reinicia. Não desligue o equipamento nesse momento.","A urna prepara a impressora antes de qualquer impressão. Aguarde a mensagem desaparecer.","A urna imprime automaticamente o extrato da contingência. Aguarde a impressão terminar.","Confira no extrato impresso os dados da urna:<ul style='list-style-type: disc;'><li>UF;</li><li>Município;</li><li>Zona;</li><li>Seção;</li><li>Data;</li><li>Hora da emissão;</li><li>Código de identificação da carga;</li><li>Resumo da correspondência;</li></ul>",
+        "A tela confirma o modelo de urna que foi detectado pelo sistema.","Em seguida, a tela informa que foi detectada uma carga de votação na mídia.","Aguarde enquanto a urna verifica a integridade dos softwares instalados.","A tela confirma que a urna foi carregada para o turno da eleição.","Aguarde a validação da urna. Esse processo pode levar alguns minutos — não desligue o equipamento.","Confirme que a urna está pronta e reinicie:<ul style='list-style-type: disc;'><li>A tela informa que a urna está pronta para retomar a votação;</li><li>Tecle <span style='color: green;'><strong>CONFIRMA</span>/Reiniciar</strong> para identificar o próximo eleitor.</li></ul>","Quando solicitado, tecle <span style='color: green;'><strong>CONFIRMA</span>/Reiniciar/Testar</strong> para iniciar o teste de teclado.","Pressione, uma a uma, cada tecla destacada na tela até concluir o teste de teclado.","Continua na <strong>Parte 4 – Iniciando a Votação.</strong>"
+
+    ]
   },
   "Parte 4 – Iniciando a Votação.": {
     images: [
         {
-            src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
-        }
+            src: "08.47 - PREPARAÇÃO.png",
+            caption: "Passo 1 - Reinício da Votação."
+        },
+        {
+            src: "08.48 - PREPARAÇÃO.png",
+            caption: "Passo 2 - REINÍCIO DA VOTAÇÃO — IDENTIFIQUE O ELEITOR."
+        },
+        {
+            src: "08.49 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Presidente da seção operando o microterminal para identificação."
+        },
+        {
+            src: "08.50 - PREPARAÇÃO.png",
+            caption: "Passo 3 - Solicitação da Biometria do Eleitor."
+        },
+        {
+            src: "08.51 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Solicitação de votação no Deputado Federal."
+        },
+        {
+            src: "08.52 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Tela de Candidaturas: Deputado Federal."
+        },
+        {
+            src: "08.53 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Solicitação de votação no Deputado Estadual."
+        },
+        {
+            src: "08.54 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Tela de Candidaturas: Deputado Estadual."
+        },
+        {
+            src: "08.55 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Solicitação de votação no Senador (1ª vaga)."
+        },
+        {
+            src: "08.56 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Tela de Candidaturas: Senador (1ª vaga)."
+        },
+        {
+            src: "08.57 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Solicitação de votação no Senador (2ª vaga)."
+        },
+        {
+            src: "08.58 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Tela de Candidaturas: Senador (2ª vaga)."
+        },
+        {
+            src: "08.59 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Solicitação de votação no Governador."
+        },
+        {
+            src: "08.60 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Tela de Candidaturas: Governador."
+        },
+        {
+            src: "08.61 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Solicitação de votação no Presidente da República."
+        },
+        {
+            src: "08.62 - PREPARAÇÃO.png",
+            caption: "Passo 4 - Tela de Candidaturas: Presidente da República."
+        },
         ],
     video: "videos/11-instalacao-ue.mp4",
-    instructions: ["", "", ""]
+    instructions: ["Confirme os dados da seção e o reinício da votação:<ul style='list-style-type: disc;'><li>Município;</li><li>Zona;</li><li>Seção;</li><li>Resumo da correspondência;</li><li>Tecle <span style='color: green;'><strong>CONFIRMA</span>/Continuar</strong> para prosseguir, ou <span style='color: white;'><strong>BRANCO</span>/Mais</strong> informações para ver mais detalhes.</li></ul>","A urna exibe a instrução para identificar o eleitor, indicando que já pode iniciar o atendimento.",
+"Use o <strong>Microterminal </strong>(oficialmente chamado de <strong>Terminal do Mesário)</strong> para identificar o eleitor:<ul style='list-style-type: disc;'><li>Solicitação da Biometria, que o eleitor posicione o polegar ou o indicador no sensor.;</li><li>Observe os <strong>LEDs</strong> do microterminal:<ul><li>• <span style='color: green;'><strong>VERDE: LIBERADO</strong></span> - para identificação de eleitor;</li><li>• <span style='color: orange;'><strong>LARANJA: AGUARDE</strong></span> - eleitor está votando na cabina;</li><li>• <span style='color: red;'><strong>VERMELHO: BATERIA INTERNA</strong></span> em uso.</li></ul><li>Tecle <span style='color: red;'><strong>CORRIGE</strong></span> para cancelar a identificação, se necessário.</li></ul>",
+"A ordem de votação na urna eletrônica nas Eleições 2026 do TSE começa por deputado federal e termina com presidente da República, totalizando seis:<ul style='list-style-type: disc;'><li><span style='color: #0052CC;'><strong>Deputado Federal:</span> _ _ _ _ (4 dígitos);</li><li><span style='color: #00875A;'><strong>Deputado Estadual (ou Distrital):</span> _ _ _ _ _ (5 dígitos);</li><li><span style='color: #6554C0;'><strong>Senador (1ª vaga):</span> _ _ _ (3 dígitos);</li><li><span style='color: #E6007A;'><strong>Senador (2ª vaga):</span> _ _ _ (3 dígitos);</li><li><span style='color: #FF7A00;'><strong>Govenador:</span> _ _ (2 dígitos);</li><li><span style='color: #DE350B;'><strong>Presidente da República:</span> _ _ (2 dígitos);</li></ul>"
+    ]
   },
   "Parte 5 – Ciclo de Votação no Dia da Eleição.": {
     images: [
         {
-            src: "01 - REINICIAR - 01.png",
-            caption: "Legenda01"
-        }
+            src: "08.63 - PREPARAÇÃO.png",
+            caption: "Passo 1 - Cronograma da Votação 2026."
+        },
+        {
+            src: "08.64 - PREPARAÇÃO.png",
+            caption: "Passo 2 - Etapas da Apuração da Votação 2026."
+        },
         ],
     video: "videos/11-instalacao-ue.mp4",
-    instructions: ["", "", ""]
+    instructions: ["Ciclo de Votação no Dia da Eleição:<ul style='list-style-type: disc;'><li><span style='color: green;'><strong>07:00h — Zerésima</strong></span>;</li><li><span style='color: #0052CC;'><strong>08:00h — Início da votação:</strong></span> habilitação de eleitor para votação e realização de justificativas. Realização de Procedimentos de <span style='color: #FFA500;'><strong>Contingências;</strong></span></li><li><span style='color: #E6007A;'><strong>17:00h — Início da apuração:</strong></span> encerramento, emissão do Boletim de Urna (BU) e da Justificativa (BUJ), e encaminhamento da MR para transmissão. Realização de Procedimentos do <span style='color: #DE350B;'><strong>Recuperador de Dados - RED.</strong></span></li></ul>", 
+        "Ciclo de Votação no Dia da Eleição:<ul><li><span style='color: #0052CC;'><strong>1º) Encerramento da Votação:<strong></span> Ao final do horário de votação, o mesário encerra a votação na urna eletrônica;</li><li><span style='color: #0052CC;'><strong>2º) Totalização dos Resultados da Urna:<strong></span> A urna processa internamente os votos registrados e totaliza os resultados da seção eleitoral;</li><li><span style='color: #0052CC;'><strong>3º) Impressão do Boletim de Urna (BU):<strong></span> É impresso o Boletim de Urna, documento com o resultado da votação daquela seção, incluindo QR Code de verificação;</li><li><span style='color: #0052CC;'><strong>4º) Cópia dos Resultados para Mídia:<strong></span> Os resultados são copiados para a mídia de resultado (pendrive), que armazena os dados a serem transmitidos;</li><li><span style='color: #0052CC;'><strong>5º) Transporte das Mídias de Resultado:<strong></span> As mídias de resultado são transportadas até o Cartório Eleitoral, no ponto de transmissão;</li><li><span style='color: #0052CC;'><strong>6º)Transmissão dos Arquivos das Urnas:<strong></span> No Cartório Eleitoral, os arquivos das urnas são transmitidos eletronicamente ao Tribunal Superior Eleitoral (TSE);</li><li><span style='color: #0052CC;'><strong>7º) Totalização e Divulgação dos Resultados:<strong></span> O TSE totaliza os dados recebidos de todas as seções e divulga os resultados oficiais da eleição.</li></ul>"
+
+
+    ]
   }
 };
 
