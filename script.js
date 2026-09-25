@@ -1078,36 +1078,16 @@ document.getElementById(
 "selectedSoftwareTitle"
 ).innerHTML=currentSoftware.name;
 
-const list = document.getElementById(
-"tutorialList"
-);
+renderTutorials();
 
-list.innerHTML="";
+const tutorialSearch =
+    document.getElementById("tutorialSearchInput");
 
-currentSoftware.tutorials.forEach(title => {
+tutorialSearch.value = "";
 
-list.innerHTML += `
-<div
-    onclick="showTutorial('${title}')"
-    class="tutorial-card"
->
-
-<div class="flex items-center justify-between">
-
-    <span class="font-medium">
-        ${title}
-    </span>
-
-    <span class="text-cyan-400 text-xl">
-        →
-    </span>
-
-</div>
-
-</div>
-`;
-
-});
+tutorialSearch.onkeyup = (e) => {
+    renderTutorials(e.target.value);
+};
 
 }
 
@@ -1209,6 +1189,41 @@ function showTutorial(title) {
         </div>
     `;
 }//fim da função
+
+/* ====================================================
+    PESQUISA POR TUTORIAL NA SEGUNDA TELA
+==================================================== */
+function renderTutorials(filter = "") {
+    const list = document.getElementById("tutorialList");
+
+    list.innerHTML = "";
+
+    currentSoftware.tutorials
+        .filter(tutorial =>
+            tutorial.toLowerCase().includes(filter.toLowerCase())
+        )
+        .forEach(title => {
+
+            list.innerHTML += `
+                <div
+                    onclick="showTutorial('${title}')"
+                    class="tutorial-card"
+                >
+                    <div class="flex items-center justify-between">
+                        <span class="font-medium">
+                            ${title}
+                        </span>
+                        <span class="text-cyan-400 text-xl">
+                            →
+                        </span>
+                    </div>
+                </div>
+            `;
+
+        });
+}
+
+
 
 /* ====================================================
     PESQUISA
